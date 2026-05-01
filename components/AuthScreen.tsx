@@ -78,21 +78,6 @@ export default function AuthScreen() {
     }
   }
 
-  async function handleGoogle() {
-    setError(null);
-    setBusy(true);
-    try {
-      const { error: err } = await supabase.auth.signInWithOAuth({
-        provider: "google",
-        options: { redirectTo: window.location.origin },
-      });
-      if (err) throw err;
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Google sign-in failed.");
-      setBusy(false);
-    }
-  }
-
   const isForgot = mode === "forgot";
   const submitLabel = busy
     ? "…"
@@ -265,23 +250,9 @@ export default function AuthScreen() {
                 </form>
 
                 {!isForgot && (
-                  <>
-                    <div className="my-6 trail-divider" aria-hidden="true" />
-
-                    <button
-                      type="button"
-                      onClick={handleGoogle}
-                      disabled={busy}
-                      className="flex w-full items-center justify-center gap-3 rounded-md border border-border-strong bg-bg-paper py-2.5 text-sm font-medium text-ink-primary transition-colors hover:bg-bg-base disabled:opacity-60"
-                    >
-                      <GoogleLogo className="h-4 w-4" />
-                      Continue with Google
-                    </button>
-
-                    <p className="mt-5 font-mono text-[0.65rem] uppercase tracking-widest text-ink-tertiary text-center">
-                      By continuing you agree to a quietly-saved manifest.
-                    </p>
-                  </>
+                  <p className="mt-5 font-mono text-[0.65rem] uppercase tracking-widest text-ink-tertiary text-center">
+                    By continuing you agree to a quietly-saved manifest.
+                  </p>
                 )}
               </div>
             </div>
@@ -292,29 +263,3 @@ export default function AuthScreen() {
   );
 }
 
-function GoogleLogo({ className = "" }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 48 48"
-      className={className}
-      aria-hidden="true"
-    >
-      <path
-        fill="#FFC107"
-        d="M43.6 20.5H42V20H24v8h11.3c-1.6 4.7-6.1 8-11.3 8-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3l5.7-5.7C34.4 6.4 29.5 4.5 24 4.5 13.2 4.5 4.5 13.2 4.5 24S13.2 43.5 24 43.5 43.5 34.8 43.5 24c0-1.2-.1-2.4-.4-3.5z"
-      />
-      <path
-        fill="#FF3D00"
-        d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3l5.7-5.7C34.4 6.4 29.5 4.5 24 4.5 16.3 4.5 9.7 8.9 6.3 14.7z"
-      />
-      <path
-        fill="#4CAF50"
-        d="M24 43.5c5.4 0 10.3-2.1 14-5.4l-6.5-5.5c-1.9 1.4-4.4 2.4-7.5 2.4-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.6 38.9 16.3 43.5 24 43.5z"
-      />
-      <path
-        fill="#1976D2"
-        d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.3-4.3 5.7l6.5 5.5c-.5.5 7-5.1 7-15.2 0-1.2-.1-2.4-.4-3.5z"
-      />
-    </svg>
-  );
-}

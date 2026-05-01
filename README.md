@@ -82,11 +82,9 @@ on `auth.uid()`.
 
 ### 4. Configure auth providers
 
-In **Supabase → Authentication → Providers**:
-
-- **Email**: enabled by default. Decide whether to require email confirmation
-  in **Auth → Providers → Email** (recommended on).
-- **Google**: see "Google OAuth setup" below.
+In **Supabase → Authentication → Providers**, **Email** is enabled by default.
+Decide whether to require email confirmation in **Auth → Providers → Email**
+(recommended on for production).
 
 Then under **Authentication → URL Configuration**, set:
 
@@ -120,41 +118,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## Google OAuth setup
-
-The "Continue with Google" button uses Supabase's OAuth flow. Wire it up like
-this:
-
-### 1. Google Cloud Console
-
-1. Open [Google Cloud Console](https://console.cloud.google.com/) and either
-   create a project or pick an existing one.
-2. **APIs & Services → OAuth consent screen** — set it up as **External**, fill
-   in the app name, support email, etc. Add scopes `openid`, `email`,
-   `profile`.
-3. **APIs & Services → Credentials → Create Credentials → OAuth client ID**.
-   - Application type: **Web application**.
-   - **Authorized JavaScript origins**:
-     - `http://localhost:3000`
-     - `https://your-production-domain.com`
-   - **Authorized redirect URIs** — paste the callback URL from your Supabase
-     project, which looks like:
-     `https://<your-project-ref>.supabase.co/auth/v1/callback`
-4. Save. Copy the **Client ID** and **Client secret**.
-
-### 2. Supabase
-
-1. Go to **Authentication → Providers → Google**.
-2. Toggle **Enabled**, paste the Client ID and Client secret, save.
-3. Under **Authentication → URL Configuration**:
-   - **Site URL**: `http://localhost:3000` for dev, your real domain for prod.
-   - **Redirect URLs**: add both `http://localhost:3000/**` and your production
-     domain pattern.
-
-That's it — the Google button will now work.
-
----
-
 ## Deploy to Vercel
 
 1. Push this repo to GitHub.
@@ -163,10 +126,10 @@ That's it — the Google button will now work.
 4. Under **Environment Variables**, add:
    - `NEXT_PUBLIC_SUPABASE_URL`
    - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
+   - `SUPABASE_SERVICE_ROLE_KEY`
 5. Deploy.
-6. After the first deploy, copy your Vercel URL and:
-   - Add it to Google Cloud Console's **Authorized JavaScript origins**.
-   - Add it to Supabase's **Site URL** / **Redirect URLs**.
+6. After the first deploy, copy your Vercel URL and add it to Supabase's
+   **Site URL** and **Redirect URLs** (don't forget `/reset-password`).
 
 ---
 
