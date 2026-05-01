@@ -1,0 +1,68 @@
+"use client";
+
+import type { AccentKey } from "@/types";
+import { ICON_MAP } from "@/lib/data";
+import { ACCENT_BG, ACCENT_TEXT } from "@/lib/styles";
+
+export type TabItem = {
+  id: string;
+  name: string;
+  iconKey: string;
+  count: number;
+  accent: AccentKey;
+};
+
+type Props = {
+  tabs: TabItem[];
+  activeId: string;
+  onSelect: (id: string) => void;
+};
+
+export default function TabStrip({ tabs, activeId, onSelect }: Props) {
+  return (
+    <div
+      role="tablist"
+      aria-label="Sections"
+      className="-mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8"
+    >
+      <div className="flex gap-2 overflow-x-auto scrollbar-none pb-1">
+        {tabs.map((tab) => {
+          const Icon = ICON_MAP[tab.iconKey];
+          const active = tab.id === activeId;
+          return (
+            <button
+              key={tab.id}
+              type="button"
+              role="tab"
+              aria-selected={active}
+              aria-controls={`panel-${tab.id}`}
+              onClick={() => onSelect(tab.id)}
+              className={`group inline-flex shrink-0 items-center gap-2 rounded-full border px-3.5 py-2 text-sm transition-colors ${
+                active
+                  ? `${ACCENT_BG[tab.accent]} text-white border-transparent shadow-sm`
+                  : "bg-bg-paper border-border-soft text-ink-secondary hover:border-border-strong hover:text-ink-primary"
+              }`}
+            >
+              {Icon && (
+                <Icon
+                  className={`h-4 w-4 ${active ? "text-white" : ACCENT_TEXT[tab.accent]}`}
+                  strokeWidth={1.8}
+                />
+              )}
+              <span className="font-medium whitespace-nowrap">{tab.name}</span>
+              <span
+                className={`font-mono text-[0.65rem] tabular-nums uppercase tracking-widest rounded-full px-1.5 py-0.5 ${
+                  active
+                    ? "bg-white/20 text-white"
+                    : "bg-bg-base text-ink-tertiary"
+                }`}
+              >
+                {tab.count}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
