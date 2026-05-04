@@ -122,16 +122,16 @@ export default function ListItem({
   onRemove,
 }: Props) {
   return (
-    <li className="group flex items-center gap-3 px-2 py-2.5 -mx-2 rounded-md transition-colors hover:bg-bg-paper">
+    <li className="group flex items-center gap-2 sm:gap-3 px-2 py-2.5 -mx-2 rounded-md transition-colors hover:bg-bg-paper">
       <HexCheckbox checked={isChecked} accent={accent} onClick={onToggle} />
 
       <button
         type="button"
         onClick={onToggle}
-        className="min-w-0 flex-1 text-left"
+        className="min-w-0 flex-1 text-left py-0.5"
       >
         <span
-          className={`block truncate text-sm sm:text-base ${
+          className={`block break-words text-sm sm:text-base leading-snug ${
             isChecked
               ? "text-ink-tertiary line-through decoration-1"
               : "text-ink-primary"

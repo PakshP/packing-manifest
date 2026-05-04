@@ -105,7 +105,7 @@ export default function BagPanel({
                 onSetBag={(b) => onSetItemBag(item.id, b)}
                 onRemove={() => onRemoveItem(item.id)}
               />
-              <p className="pointer-events-none -mt-1 ml-10 mb-1.5 font-mono text-[0.6rem] uppercase tracking-widest text-ink-tertiary">
+              <p className="pointer-events-none -mt-1 ml-9 sm:ml-10 mb-1.5 font-mono text-[0.6rem] uppercase tracking-widest text-ink-tertiary">
                 {category.name}
               </p>
             </div>
