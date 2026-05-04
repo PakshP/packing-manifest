@@ -23,9 +23,17 @@ export default function TabStrip({ tabs, activeId, onSelect }: Props) {
     <div
       role="tablist"
       aria-label="Sections"
-      className="-mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8"
+      className="relative -mx-4 sm:-mx-6 lg:-mx-8"
     >
-      <div className="flex gap-2 overflow-x-auto scrollbar-none pb-1">
+      <div
+        className="pointer-events-none absolute inset-y-0 left-0 z-10 w-6 bg-gradient-to-r from-bg-base to-transparent sm:w-8"
+        aria-hidden="true"
+      />
+      <div
+        className="pointer-events-none absolute inset-y-0 right-0 z-10 w-8 bg-gradient-to-l from-bg-base to-transparent sm:w-10"
+        aria-hidden="true"
+      />
+      <div className="flex gap-2 overflow-x-auto scrollbar-none scroll-smooth snap-x snap-proximity pb-1 pl-4 pr-10 sm:pl-6 sm:pr-12 lg:pl-8">
         {tabs.map((tab) => {
           const Icon = ICON_MAP[tab.iconKey];
           const active = tab.id === activeId;
@@ -37,7 +45,7 @@ export default function TabStrip({ tabs, activeId, onSelect }: Props) {
               aria-selected={active}
               aria-controls={`panel-${tab.id}`}
               onClick={() => onSelect(tab.id)}
-              className={`group inline-flex shrink-0 items-center gap-2 rounded-full border px-3.5 py-2 text-sm transition-colors ${
+              className={`group inline-flex shrink-0 snap-start items-center gap-2 rounded-full border px-3.5 py-2 text-sm transition-colors ${
                 active
                   ? `${ACCENT_BG[tab.accent]} text-white border-transparent shadow-sm`
                   : "bg-bg-paper border-border-soft text-ink-secondary hover:border-border-strong hover:text-ink-primary"
