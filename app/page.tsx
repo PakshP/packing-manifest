@@ -27,6 +27,9 @@ import BagPanel from "@/components/BagPanel";
 import ListActionsBar from "@/components/ListActionsBar";
 import AccountModal from "@/components/AccountModal";
 import ConfirmDialog from "@/components/ui/ConfirmDialog";
+import ChatLauncher from "@/components/chat/ChatLauncher";
+import ChatPanel from "@/components/chat/ChatPanel";
+import { useChatStore } from "@/lib/chat-store";
 
 type ConfirmRequest = {
   title: string;
@@ -58,8 +61,12 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<string>(INITIAL_CATEGORIES[0].id);
 
   const [accountOpen, setAccountOpen] = useState(false);
+  const [chatOpen, setChatOpen] = useState(false);
   const [confirmRequest, setConfirmRequest] = useState<ConfirmRequest | null>(null);
   const [deleteError, setDeleteError] = useState<string | null>(null);
+
+  const { messages: chatMessages, send: chatSend, thinking: chatThinking } =
+    useChatStore();
 
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const savedClearRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -618,6 +625,15 @@ export default function Home() {
           onCancel={dismissConfirm}
         />
       )}
+
+      <ChatLauncher open={chatOpen} onClick={() => setChatOpen(true)} />
+      <ChatPanel
+        open={chatOpen}
+        onClose={() => setChatOpen(false)}
+        messages={chatMessages}
+        onSend={chatSend}
+        thinking={chatThinking}
+      />
     </div>
   );
 }

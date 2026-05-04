@@ -1,0 +1,4448 @@
+[
+  {
+    "name": "Aerosol Insecticide",
+    "description": "Aerosol insecticides are not allowed in carry-on; however they are allowed in checked bags as long as they are not labeled as hazardous material (HAZMAT).",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Air Mattress with Built-in Pump",
+    "description": "Air mattresses with built-in pump are allowed in carry-on bags. Please check with your airline for any size or weight restrictions.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Airbrush Make-up Machine",
+    "description": "Devices containing lithium metal or lithium ion batteries should be carried in carry-on baggage. Most other consumer devices containing batteries are allowed in carry-on and checked baggage. For more information to portable electronic devices, see the FAA regulations.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Alcoholic beverages",
+    "description": "Check with your airline before bringing any alcohol beverages on board. FAA regulations prohibit travelers from consuming alcohol on board an aircraft unless served by a flight attendant. Additionally, Flight Attendants are not permitted to serve a passenger who is intoxicated. Alcoholic beverages with more than 24% but not more than 70% alcohol are limited in checked bags to 5 liters (1.3 gallons) per passenger and must be in unopened retail packaging. Alcoholic beverages with 24% alcohol or less are not subject to limitations in checked bags. Mini bottles of alcohol in carry-on must be able to comfortably fit into a single quart-sized bag. For more information, see FAA regulation: 49 CFR 175.10(a)(4).",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Alcoholic beverages over 140 proof",
+    "description": "Alcoholic beverages with more than 70% alcohol (over 140 proof), including grain alcohol and 151 proof rum. For more information, see FAA regulation: 49 CFR 175.10(a)(4).",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Ammunition",
+    "description": "Check with your airline if ammunition is allowed in checked bags. Small arms ammunitions must be securely packed in fiber, wood or metal boxes or other packaging specifically designed to carry small amounts of ammunition. Ask the airline about limitations or fees. Read the guidelines for traveling with firearms. When traveling, be sure to comply with the laws concerning possession of firearms as they vary by local, state and international government.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Antlers",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Artificial Skeleton Bones",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Axes and Hatchets",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Baby Carrier",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Baby Food",
+    "description": "Baby food is allowed in reasonable quantities in carry-on bags. Remove these items from your carry-on bag to be screened separately from the rest of your belongings. Please see traveling with children for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Baby Formula",
+    "description": "Formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) in quantities greater than 3.4 ounces or 100 milliliters are allowed in carry-on baggage and do not need to fit within a quart-sized bag. Formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) are considered medically necessary liquids. This also applies to breast milk and formula cooling accessories, such as ice packs, freezer packs, and gel packs (regardless of presence of breast milk). Your child or infant does not need to be present or traveling with you to bring breast milk, formula and/or related supplies. Inform the TSA officer at the beginning of the screening process that you are carrying formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) in excess of 3.4 ounces. Remove these items from your carry-on bag to be screened separately from your other belongings. TSA officers may need to test the liquids for explosives or concealed prohibited items. Although not required, to expedite the screening process, it is recommended that formula and breast milk be transported in clear, translucent bottles and not plastic bags or pouches. Liquids in plastic bags or pouches may not be able to be screened by Bottle Liquid Scanners, and you may be asked to open them (if feasible) for alternate screening such as Explosive Trace Detection and Vapor Analysis for the presence of liquid explosives. Screening will never include placing anything into the medically necessary liquid. TSA X-ray machines do not adversely affect food or medicines. However, if you do not want the formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) to be X-rayed or opened, please inform the TSA officer. Additional steps will be taken to clear the liquid and you or the traveling guardian will undergo additional screening procedures, to include Advanced Imaging Technology screening and additional/enhanced screening of other carry-on property. Ice packs, freezer packs, frozen gel packs and other accessories required to cool formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) – regardless of the presence of breast milk – are also allowed in carry-ons, along with liquid-filled teethers. If these items are partially frozen or slushy, they are subject to the same screening as described above. Please see traveling with children for more information. Travelers requiring special accommodations or concerned about the security screening process at the airport may request assistance by contacting TSA Cares online at http://www.tsa.gov/contact-center/form/cares or by phone at (855) 787-2227 or federal relay 711.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Baby Powder",
+    "description": "Powder-like substances greater than 12 oz. / 350 mL must be placed in a separate bin for X-ray screening. They may require additional screening and containers may need to be opened. For your convenience, we encourage you to place non-essential powders greater than 12 oz. in checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Baby Wipes",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Balloons (not inflated)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bang Snaps",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Baseball Bats",
+    "description": "Sports equipment that can be used as a bludgeon (such as bats and clubs) is prohibited in the cabin of the plane and must be transported in your checked baggage.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Basketballs/Baseballs/Footballs/Soccer Balls",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Battery powered wheel chairs and mobility devices",
+    "description": "Spillable batteries are allowed in wheelchairs and mobility devices, where the battery may remain installed if it is securely attached to the mobility device and the battery housing provides protection from damage, the terminals are protected from short circuit, and the battery remains in an upright position when stowed on the aircraft. See FAA regulations Non-spillable batteries may require additional measures based on battery type. See FAA regulations. Lithium metal (non-rechargeable lithium) batteries are forbidden with these devices. Lithium ion batteries must be removed from this type of mobility device and battery terminals protected from short circuit. The battery must be protected from damage (e.g. by placing each battery in a protective pouch). The lithium ion batteries must be carried in carry-on baggage only. The passenger must advise the airline of the battery location. The airline must notify the Pilot-in-command of the battery location in the cabin. For complete passenger instructions contact your airline. Advance arrangements and extra check-in time may be necessary. The airline may need to remove the battery and package it separately if the wheelchair cannot be stowed upright in the cargo compartment. Wheelchairs and other mobility devices are permitted through the checkpoint but not permitted into the cabin of the aircraft.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "BB Guns",
+    "description": "Check with your airline to see if they allow firearms in checked bags. Read the guidelines for traveling with firearms. When traveling, be sure to comply with the laws concerning possession of firearms as they vary by local, state and international government.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Bear Bangers",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bear spray",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Belts, Clothes and Shoes",
+    "description": "To help TSA officers get a clear look at your bag and reduce the need for additional screening, we suggest you pack your bag in neat layers.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bicycle Chains",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bicycle Pumps",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bicycles",
+    "description": "",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Billy Clubs",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Binoculars",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Biological specimens, non-infectious, in preservative solutions",
+    "description": "The FAA has limits on preservative solution in checked baggage. No more than 30 ml of free liquid solution in each inner packaging and no more than one liter in the entire outer package. See FAA Regulations for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Black Jacks (Self-Defense Weapons)",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Blankets",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Blasting Caps",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Blender",
+    "description": "Blenders are allowed in carry-on bags if the blade has been removed. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Blood Sugar Test Kit",
+    "description": "Please notify the TSA officer that you have diabetes and are carrying your supplies with you. Insulin pumps and supplies must be accompanied by insulin, and insulin in any form or dispenser must be clearly identified. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bobby Pins",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bocce Balls",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Body Armor",
+    "description": "Generally, body armor is allowed in carry-on or checked bags. Please note however that even if an item is generally allowed, our officers make the final decision on whether an item is allowed through the checkpoint.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Books",
+    "description": "Books often require additional screening. The TSA officer may ask you to remove them from your carrying case to conduct a physical inspection.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bottle Opener",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bottled Water",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bowling Balls",
+    "description": "Sports equipment that can be used as a bludgeon (such as bats and clubs) is prohibited in the cabin of the plane and must be transported in your checked bags.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bowling Pins",
+    "description": "Sports equipment that can be used as a bludgeon (such as bats and clubs) is prohibited in the cabin of the plane and must be transported in your checked baggage.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bows and Arrows",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Box Cutters",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors. These items are required to be placed in checked bags with or without blades.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Boxing Gloves",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Brass Instruments",
+    "description": "",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Brass Knuckles",
+    "description": "Although these items can be placed in your checked baggage, they are still illegal in some states. Should the bag need to be opened for some reason and there is an illegal item in the bag, TSA will be required to report it to local law enforcement.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bread",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bread Machine",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Breast Milk",
+    "description": "Formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) in quantities greater than 3.4 ounces or 100 milliliters are allowed in carry-on baggage and do not need to fit within a quart-sized bag. Formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) are considered medically necessary liquids. This also applies to breast milk and formula cooling accessories, such as ice packs, freezer packs, and gel packs (regardless of presence of breast milk). Your child or infant does not need to be present or traveling with you to bring breast milk, formula and/or related supplies. Inform the TSA officer at the beginning of the screening process that you are carrying formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) in excess of 3.4 ounces. Remove these items from your carry-on bag to be screened separately from your other belongings. TSA officers may need to test the liquids for explosives or concealed prohibited items. Although not required, to expedite the screening process, it is recommended that formula and breast milk be transported in clear, translucent bottles and not plastic bags or pouches. Liquids in plastic bags or pouches may not be able to be screened by Bottle Liquid Scanners, and you may be asked to open them (if feasible) for alternate screening such as Explosive Trace Detection and Vapor Analysis for the presence of liquid explosives. Screening will never include placing anything into the medically necessary liquid. TSA X-ray machines do not adversely affect food or medicines. However, if you do not want the formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) to be X-rayed or opened, please inform the TSA officer. Additional steps will be taken to clear the liquid and you or the traveling guardian will undergo additional screening procedures, to include Advanced Imaging Technology screening and additional/enhanced screening of other carry-on property. Ice packs, freezer packs, frozen gel packs and other accessories required to cool formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) – regardless of the presence of breast milk – are also allowed in carry-ons, along with liquid-filled teethers. If these items are partially frozen or slushy, they are subject to the same screening as described above. Please see traveling with children for more information. Travelers requiring special accommodations or concerned about the security screening process at the airport may request assistance by contacting TSA Cares online at http://www.tsa.gov/contact-center/form/cares or by phone at (855) 787-2227 or federal relay 711.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Breast Pump",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Bug Repellent",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Note that only bug repellants to be applied to the skin are accepted. Insect repellents or insecticides designed to be sprayed in the air or at the insect are not permitted in either carry on or checked baggage. Permitted aerosol release devices (button/nozzle) must be protected with a cap or other means to protect against accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Butane",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Butane Curling Irons (cordless)",
+    "description": "Cordless curling irons containing a gas cartridge and butane fueled curling irons are allowed in carry-on bags only. A safety cover must be securely fitted over the heating element. The device must be protected from accidental activation. Gas refills (spare cartridges) are not allowed in either checked or carry-on bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Camera Monopod",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Camp stoves",
+    "description": "Camp stoves are allowed in carry-on or checked bags only if they are empty of all fuel and cleaned so that no fuel vapors or residue remain. Please wrap cords and layer items in bags so officers can get a clear view of the items.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Candy",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Canes",
+    "description": "Please visit our special procedures page for information on traveling through the checkpoint with a cane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Canned Foods",
+    "description": "There are some items that are not on the prohibited items list, but because of how they appear on the X-ray, security concerns, or impact of the 3-1-1 rules for liquids, gels and aerosols, they could require additional screening that might result in the item not being allowed through the checkpoint. We suggest that you pack this item in your checked bag, ship it to your destination or leave it at home.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Canoe/Kayak Paddles",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cap Guns",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Car Parts",
+    "description": "Car engine parts and other car parts without fuel or traces of fuel are allowed in carry-on or checked bags. Car engine parts may be placed in checked bags only if the parts are packed in their original box and free of gasoline and oil. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane. If you have questions regarding hazardous materials regulations, please see the FAA website.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Cast Iron Cookware",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Casts",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cattle Prods",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cell Phones",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cereal",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Chapsticks",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cheese (Creamy)",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cheese (Solid)",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Child Car Seat",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Chlorine for Pools and Spas",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Chocolate (liquid)",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Chocolate (Solid)",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Chopsticks",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Christmas Lights",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cigar Cutters",
+    "description": "While cigar cutters are generally permitted, we recommend that you pack them in your checked baggage. TSA officers have the discretion to prohibit any item through the screening checkpoint if they believe it poses a security threat. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Cigarettes",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cigars",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Clock",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "CO2 Cartridge",
+    "description": "Except for personal medical oxygen cylinders, you can only carry an EMPTY compressed gas cylinder onboard a plane. To be permitted (in either carry-on or checked baggage), it must be clearly visible to the TSA officer that the cylinder is empty.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "CO2 Cartridge for Life Vest",
+    "description": "You may bring a life vest with up to two CO2 cartridges inside, plus two spare cartridges in your carry-on or checked bag. Even if an item is generally permitted, it may be subject to additional screening or not allowed through the checkpoint if it triggers an alarm during the screening process, appears to have been tampered with, or poses other security concerns. The final decision rests with TSA on whether to allow any items on the plane. You may not transport CO2 cartridges without the associated lifejacket.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Coat Hangers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Coffee (Beans or Ground)",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Coffee (Liquid)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Coffee Thermos (empty)",
+    "description": "You may take empty drink containers through the checkpoint and fill them afterward.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Coffee/Espresso Maker",
+    "description": "Please carefully pack your electronics items and make sure all cords are wrapped. While you can pack expensive, fragile electronics items in checked or carry-on bags, we recommend packing them in your carry-on.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cologne",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Comic Books",
+    "description": "Books often require additional screening. The TSA officer may ask you to remove them from your carrying case to conduct a physical inspection.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Compressed Air Guns",
+    "description": "Including paintball markers, may be carried in checked baggage without compressed air cylinder attached.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Concealer",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Conditioner",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Contact Lens Solution",
+    "description": "TSA allows larger amounts of medically necessary liquids, gels, and aerosols in reasonable quantities for your trip, but you must declare them to security officers at the checkpoint for inspection. Any oversized medically-necessary liquids that alarm during screening, testing positive for certain chemicals, may not be allowed through the screening checkpoint. Some contact lens solutions contain chemicals that typically alarm and may not permitted through the checkpoint. We recommend placing contact lens solutions over 3.4 ounces in your checked baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Contact Lenses",
+    "description": "TSA allows larger amounts of medically necessary liquids, gels, and aerosols in reasonable quantities for your trip, but you must declare them to security officers at the checkpoint for inspection. Any oversized medically-necessary liquids that alarm during screening, testing positive for certain chemicals, may not be allowed through the screening checkpoint. Some contact lens solutions contain chemicals that typically alarm and may not be permitted through the checkpoint. We recommend placing contact lens solutions over 3.4 ounces in your checked baggage. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cooked Meat, Seafood and Vegetable (No Liquid)",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cookies",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cooking spray",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cooler (empty)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Corkscrews (with blade)",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Corkscrews (with no blade)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cowboy Spurs",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Crackers",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Crampons",
+    "description": "Crampons are generally permitted in carry-on bags. However, TSA officers have the discretion to prohibit an item if they feel it may pose a security threat.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Cream",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Creamy Dips and Spreads",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cremated Remains",
+    "description": "We understand how painful losing a loved one is and we treat crematory remains with respect. Some airlines do not allow cremated remains in checked bags, so please check with your airline to learn more about possible restrictions. To facilitate screening, we suggest that you purchase a temporary or permanent crematory container made of a lighter weight material, such as wood or plastic. If the container is made of a material that generates an opaque image, TSA officers will not be able to clearly determine what is inside the container and the container will not be allowed. Out of respect for the deceased, TSA officers will not open a container, even if requested by the passenger.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Cricket Bats",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Crochet Hooks",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Crowbars",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Crutches",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Curling Iron (cordless)",
+    "description": "Cordless curling irons that contain lithium metal or lithium ion batteries or are gas or butane fueled are only allowed in carry-on bags. A safety cover must be securely fitted over the heating element. The device must be protected from accidental activation. For more information to portable electronic devices, see the FAA regulations. Gas refills (spare cartridges) are not permitted.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Curling Iron (with cord)",
+    "description": "Electric curling irons and hair straighteners with cords are not restricted.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Cutting Boards",
+    "description": "Generally, plastic and small wood cutting boards are allowed. However, the final decision rests with our checkpoint officers.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Cymbals",
+    "description": "Check with your airline prior to your flight to ensure your instrument meets the aircraft size requirements. Musical instruments must undergo screening when transported as carry-on or in checked bags. Musical instruments transported as carry-on require a physical inspection at the security checkpoint. Inform the TSA officer if your instrument requires special care and handling. Pack brass instruments in your checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Darts",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Deodorant (aerosol)",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Deodorant (liquid)",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Deodorant (Solid)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Desktop Computers",
+    "description": "Please remove the computer from your carry-on bag and place it in a separate bin for X-ray screening.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Detergent (liquid)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Detergent (powder or pellet)",
+    "description": "Powder-like substances greater than 12 oz. / 350 mL must be placed in a separate bin for X-ray screening. They may require additional screening and containers may need to be opened. For your convenience, we encourage you to place non-essential powders greater than 12 oz. in checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Digital Cameras",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Disassembled computer/computer parts/external hard drives",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Disinfecting Wipes",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Disposable Razor",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Divot Tools",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Dried Fruits",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Drills and Drill Bits",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Drones, Unmanned Aircraft Systems (UAS)",
+    "description": "Drones are allowed through the checkpoint. Please check with your airline prior to traveling for their policy. Drones containing lithium batteries, fuel cells, and components of certain parachute systems may be prohibited in baggage. For more information, see the FAA regulations.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Drum Sticks (instrument drum set)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Drumsticks",
+    "description": "Musical instruments must undergo screening when transported as carry-on or in checked bags. Musical instruments transported as carry-on require a physical inspection at the security checkpoint. Inform the TSA officer if your instrument requires special care and handling. Pack brass instruments in your checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Dry batteries (AA, AAA, C, and D)",
+    "description": "This entry applies to typical non-lithium dry batteries (alkaline, nickel metal hydride, nickel cadmium, etc.) in the most common sizes: AA, AAA, C, D, button cell, 9-volt, etc. Batteries must be protected from damage and creating sparks or a dangerous evolution of heat. For more information, see the FAA regulations on batteries.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Dry Ice",
+    "description": "The FAA limits you to 5.5 pounds of dry ice that is properly packaged (the package is vented) and marked. Airline approval is required. For more information, visit the FAA website.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Dry Shampoo (aerosol)",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Duct Tape",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "DVD Players",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Dynamite",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "E-liquids",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "E-Z Pass Transponders",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Electric Blankets",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Electric Fans",
+    "description": "You may transport this item in carry-on or checked baggage. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Electric Razors",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Electronic Cigarettes and Vaping Devices",
+    "description": "Electronic smoking devices are allowed only in carry-on baggage. Passengers are required to take effective measures for preventing accidental activation of the heating element of the device when transporting the devices. See the FAA regulations for examples of effective measures. Each lithium ion battery must not exceed a Watt-hour (Wh) rating of 100 Wh; or for lithium metal batteries, a lithium content of 2 grams. Check with your airline on any limitations on the number of devices that can be carried for personal use by a passenger.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Electronic Toothbrush",
+    "description": "Devices containing lithium metal or lithium ion batteries should be carried in carry-on baggage. Most other consumer devices containing batteries are allowed in carry-on and checked baggage. For more information on portable electronic devices, see the FAA regulations.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Emergency Position-Indicating Radiobeacons (EPIRB)",
+    "description": "",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Empty beverage container",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Empty Water Bottle",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Engine-powered Equipment Completely Purged of Fuel",
+    "description": "No amount of fuel may remain in the engine, including residual vapors. Even if completely purged, some airlines may refuse to allow engine powered equipment in carry-on if it has ever contained fuel.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Engine-powered Equipment with Residual Fuel",
+    "description": "Engine-powered equipment with residual fuel (e.g., chainsaws, generators, trimmers, etc.) is not allowed in carry-on or checked bags. No amount of fuel may remain in the engine, including residual vapors. Even if completely purged, some airlines may refuse to allow engine powered equipment in bags if it has ever contained fuel.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Engines and Engine-powered Equipment Completely Purged of Fuel",
+    "description": "Engines must be completely purged of all liquid or gaseous fuel, including residue and vapors, to be allowed in checked baggage. Even if completely purged, some airlines may refuse to allow engine powered equipment in baggage if it has ever contained fuel. Please check with your airline prior to traveling for their policy. For battery powered equipment, see separate entry.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Engines and Engine-powered Equipment with Residual Fuel",
+    "description": "Though allowed in checked baggage by international regulations, engines using fuels, internal combustion engines, or fuel cell engines are not allowed in baggage in the United States. Engines and engine-powered equipment that are totally purged of fuel and vapors may be carried as checked baggage (see separate entry). For battery powered equipment, see separate entry.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "English Christmas Crackers",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "EpiPens",
+    "description": "TSA allows larger amounts of medically necessary liquids, gels, and aerosols in reasonable quantities for your trip, but you must declare them to TSA officers at the checkpoint for inspection. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Extension Cord",
+    "description": "Please carefully pack your electronics items, making sure all cords are wrapped and any DVDs, CDs, or cassettes are removed from their devices. While you can pack expensive, fragile electronics items in checked or carry-on bags, we recommend packing them in your carry-on.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "External Medical Devices",
+    "description": "Inform the TSA officer if you have a bone growth stimulator, spinal stimulator, neurostimulator, port, feeding tube, insulin pump, ostomy or other medical device attached to your body and where it is located before the screening process begins. You may provide the officer with the TSA notification card or other medical documentation to describe your condition. Submit the device for X-ray screening if you can safely disconnect. Consult with the manufacturer of the device to determine whether it can pass through the X-ray, metal detector or advanced imaging technology for screening. If you cannot disconnect from the device, it may require additional screening and those in sensitive areas are subject to careful and gentle inspection. For more information, see TSA special procedures. If you need assistance with screening, you may ask for a Passenger Support Specialist or a Supervisory TSA Officer. Devices containing lithium metal or lithium ion batteries must be carried in carry-on baggage. Most other consumer electronic devices containing batteries are allowed in carry-on and checked baggage. For more information, see the FAA regulations on batteries.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Eye Drops",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Eye Liners (liquid)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Fertilizer",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Fidget Spinners",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Film",
+    "description": "We recommend that you put undeveloped film and cameras containing undeveloped film in your carry-on bags or take undeveloped film with you to the checkpoint and ask for a hand inspection.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Fire Extinguishers and Other Compressed Gas Cylinders",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Firearms, Firearm Silencers/Suppressors",
+    "description": "Firearms carried in checked bags must be unloaded, packed in a locked hard-sided container, and declared to the airline at check-in. Check with your airline to see if they allow firearms in checked bags. Read the guidelines for traveling with firearms. When traveling, be sure to comply with the laws concerning possession of firearms as they vary by local, state and international government.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Firecracker",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Fireworks",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Fishing pole",
+    "description": "Fishing rods are permitted in carry-on and checked bags; however, passengers should check with the airline to confirm that the fishing rod fits within size limitations for carry-on items. Sharp fishing tackle that may be considered dangerous, such as large fish hooks, should be sheathed, securely wrapped, and packed in your checked bags. Like other high-value objects, you may wish to pack expensive reels or fragile tackle that does not pose a security threat (small flies) in your carry-on bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Flammable Liquid, Gel, or Aerosol Paint",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Flammable Paints",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Flare Guns",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Flares",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Flashlights",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Flowers",
+    "description": "Fresh flowers are allowed through the checkpoint without water.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Foam Toy Sword",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Foam Yoga Blocks",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Football Helmets",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Fork",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Formaldehyde solution, less than 10 percent",
+    "description": "Formaldehyde solutions of less than 10% are not restricted as hazardous materials. Leak-proof packaging with absorbent material is still strongly encouraged. For formaldehyde solutions containing more than 10% formaldehyde, see separate entry for \"Biological specimens in preservative solutions.\" Tip: Full-strength \"Formalin\" is typically 35%-40% formaldehyde by volume. So a solution that is less than 25% Formalin would be less than 10% formaldehyde and not restricted.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Foundation",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Freezer packs",
+    "description": "Frozen liquid items and gel packs are allowed through the checkpoint as long as they are frozen solid when presented for screening. If frozen liquid items are partially melted, slushy, or have any liquid at the bottom of the container, they must meet 3-1-1 liquids requirements.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Fresh Eggs",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Fresh Fruits and Vegetables",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags within the continental United States. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible. Passengers flying from Hawaii, Puerto Rico, or the U.S. Virgin Islands to the U.S. mainland cannot take most fresh fruits and vegetables due to the risk of spreading invasive plant pests.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Fresh Meat and Seafood",
+    "description": "Meat, seafood and other non-liquid food items are permitted in both carry-on and checked bags. If the food is packed with ice or ice packs in a cooler or other container, the ice or ice packs must be completely frozen when brought through screening. If the ice or ice packs are partially melted and have any liquid at the bottom of the container, they will not be permitted. You also can pack frozen perishables in your carry-on or checked bags in dry ice. The FAA limits you to five pounds of dry ice that is properly packaged (the package is vented) and marked.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Frozen Food",
+    "description": "Meat, seafood, vegetables and other non-liquid food items are permitted in both carry-on and checked bags. If the food is packed with ice or ice packs in a cooler or other container, the ice or ice packs must be completely frozen when brought through screening. If the ice or ice packs are partially melted and have any liquid at the bottom of the container, they will not be permitted.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Fuel Cells Used to Power Portable Electronic Devices and Spare Fuel Cell Cartridges (Flammable Gases or Water-Reactive Material)",
+    "description": "Two spare fuel cell cartridges may be carried in carry-on baggage only. Each fuel cell must be marked by the manufacturer \"Approved for carriage in aircraft cabin only\". Each fuel cell cartridge (not the electronic device) must be marked with the maximum quantity and type of fuel in the cartridge. Though allowed in both carry-on and checked baggage according to international regulations, spare fuel cell cartridges containing flammable gases and water reactive substances are only allowed in carry-on baggage by U.S. regulations. See FAA Regulations for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Fuel Cells Used to Power Portable Electronic Devices and Spare Fuel Cell Cartridges (Flammable Liquid/Corrosive Material)",
+    "description": "Two spare fuel cell cartridges may be carried. See the FAA Regulations for more information on quantity limits. For international flights check with your airline as international regulations may vary from domestic regulations.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Fuels",
+    "description": "Any flammable liquid fuel, such as cooking fuel, is prohibited.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Full Sized Video Game Consoles",
+    "description": "Please place the console in a separate bin for X-ray screening.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Gas Torches",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Gasoline",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Geiger Counters",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Gel Ice Packs",
+    "description": "Frozen liquid items are allowed through the checkpoint as long as they are frozen solid when presented for screening. If frozen liquid items are partially melted, slushy, or have any liquid at the bottom of the container, they must meet 3-1-1 liquids requirements. Note that medically necessary gel ice packs in reasonable quantities are allowed regardless of their physical state of matter (e.g., melted or slushy) with or without the presence of breast milk. Please notify the TSA officer at the checkpoint for inspection. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Gel-Type Candles",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Glass",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Glass Picture Frame",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Glass Vase (empty)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Glow Sticks",
+    "description": "Glow sticks must follow the 3-1-1 liquids rule for carry-on bags. Please place them in a single, quart-size bag with other liquids, gels and aerosols.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Golf Balls",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Golf Clubs",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Golf Tees",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Grater",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Gravy",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Guitar",
+    "description": "Please check with your airline for their policy. Musical instruments must undergo screening when transported as carry-on or in checked bags. Musical instruments transported as carry-on require a physical inspection at the security checkpoint. Inform the TSA officer if your instrument requires special care and handling. Pack brass instruments in your checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Gum",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Gun Powder",
+    "description": "Including black powder and percussion caps.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hair Clippers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hair Dryers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hair Gel",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hair Spray",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Hair Straightener, flat iron (cordless)",
+    "description": "Cordless hair straighteners that contain lithium metal or lithium ion batteries or are gas or butane fueled are only allowed in carry-on bags. A safety cover must be securely fitted over the heating element. The device must be protected from accidental activation. For more information to portable electronic devices, see the FAA regulations. Gas refills (spare cartridges) are not permitted.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Hair Straightener, flat iron (with cord)",
+    "description": "Electric curling irons and hair straighteners with cords are not restricted unless they also include batteries or gas/fuel cartridges See Hair Straightener (cordless) for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Hair Texturizer (aerosol)",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hammers",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hand Grenades",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hand Sanitizers",
+    "description": "TSA allows hand sanitizer in a passenger carry-on bag under the 3-1-1 liquids rule. These are limited to travel-size hand sanitizer containers that are 3.4 ounces (100 milliliters) or less per item. The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hand Warmers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Handcuffs",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Harry Potter wand",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Headphones",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Heated Jackets / Sweaters",
+    "description": "See the FAA regulations on batteries.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Heating Pad (Gel)",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Heating Pads (Electric)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Helmets",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hiking Poles",
+    "description": "Blunt-tipped hiking poles are allowed in carry-on or checked bags and must be screened like other property. Sharp-tipped hiking poles are not allowed carry-on items. Please note that even if an item is generally allowed, our officers make the final decision on whether an item is allowed through the checkpoint. Check with your airline to see if they allow hiking poles as carry-on items.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hockey Sticks",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Holiday lights",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Holsters",
+    "description": "Read the guidelines for traveling with firearms.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Honey",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hookahs",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hot Plate",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hoverboards",
+    "description": "Hoverboards are allowed through the checkpoint. Please check with your airline for their policy.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Hummus",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Ice",
+    "description": "Frozen liquid items are allowed through the checkpoint as long as they are frozen solid when presented for screening. If frozen liquid items are partially melted, slushy, or have any liquid at the bottom of the container, they must meet 3-1-1 liquids requirements.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Ice Axes/Ice Picks",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Ice cream",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Inhalers",
+    "description": "TSA allows larger amounts of medically necessary liquids, gels, and aerosols in reasonable quantities for your trip, but you must declare them to TSA officers at the checkpoint for inspection. We recommend, but do not require, that your medications be labeled to facilitate the security process. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Instant Hot/Cold Packs",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Insulin",
+    "description": "Please let our officers know you have medically necessary liquids and place them in a bin separately for x-ray screening. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Insulin Pumps and Glucose Monitors",
+    "description": "Please notify the TSA officer that you have diabetes and are carrying your supplies with you. Insulin pumps and supplies must be accompanied by insulin, and insulin in any form or dispenser must be clearly identified. For more information, see TSA special procedures. If you need assistance with screening, you may ask for a Passenger Support Specialist or a Supervisory TSA Officer. Devices containing lithium metal or lithium ion batteries should be carried in carry-on baggage. Most other consumer electronic devices containing batteries are allowed in carry-on and checked baggage. For more information to portable electronic devices, see the FAA regulations.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Insulin Supplies",
+    "description": "Please let our officers know you have medically necessary supplies and if you have an insulin pump, glucose monitor or other medical device attached to your body. You'll find helpful information here. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "iPod",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Jam and Jelly",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Jewelry",
+    "description": "If you are travelling with valuable items such as jewelry, please keep those items with you at all times (do not put them in checked baggage). You can ask the TSA officer to screen you and your valuables in private to maintain your security.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Juice for Babies",
+    "description": "Formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) in quantities greater than 3.4 ounces or 100 milliliters are allowed in carry-on baggage and do not need to fit within a quart-sized bag. Formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) are considered medically necessary liquids. This also applies to breast milk and formula cooling accessories, such as ice packs, freezer packs, and gel packs (regardless of presence of breast milk). Your child or infant does not need to be present or traveling with you to bring breast milk, formula and/or related supplies. Inform the TSA officer at the beginning of the screening process that you are carrying formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) in excess of 3.4 ounces. Remove these items from your carry-on bag to be screened separately from your other belongings. TSA officers may need to test the liquids for explosives or concealed prohibited items. Although not required, to expedite the screening process, it is recommended that formula and breast milk be transported in clear, translucent bottles and not plastic bags or pouches. Liquids in plastic bags or pouches may not be able to be screened by Bottle Liquid Scanners, and you may be asked to open them (if feasible) for alternate screening such as Explosive Trace Detection and Vapor Analysis for the presence of liquid explosives. Screening will never include placing anything into the medically necessary liquid. TSA X-ray machines do not adversely affect food or medicines. However, if you do not want the formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) to be X-rayed or opened, please inform the TSA officer. Additional steps will be taken to clear the liquid and you or the traveling guardian will undergo additional screening procedures, to include Advanced Imaging Technology screening and additional/enhanced screening of other carry-on property. Ice packs, freezer packs, frozen gel packs and other accessories required to cool formula, breast milk, toddler drinks, and baby/toddler food (to include puree pouches) – regardless of the presence of breast milk – are also allowed in carry-ons, along with liquid-filled teethers. If these items are partially frozen or slushy, they are subject to the same screening as described above. Please see traveling with children for more information. Travelers requiring special accommodations or concerned about the security screening process at the airport may request assistance by contacting TSA Cares online at http://www.tsa.gov/contact-center/form/cares or by phone at (855) 787-2227 or federal relay 711.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Juices",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Kirpans",
+    "description": "Cutting or thrusting weapons, including fencing foils. Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Knitting Needles",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Knives",
+    "description": "Except knives with rounded-blades, blunt edges without serration/teeth such as butter knives, or plastic cutlery. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Kubatons",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lacrosse Sticks",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Laptops",
+    "description": "Please remove the laptops from your bag and place it in a separate bin for X-ray screening. TSA PreCheck® travelers do not need to remove shoes, laptops, 3-1-1 liquids, belts or light jackets. Please see TSA PreCheck® for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Laser Hair Remover",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Laser Pointers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "LED lights",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "License plate",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Life Vest",
+    "description": "You may bring a life vest with up to two CO2 cartridges inside, plus two spare cartridges in your carry-on or checked bag. You may not transport CO2 cartridges without the associated lifejacket.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Light Bulbs",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Light Saber",
+    "description": "Sadly, the technology doesn't currently exist to create a real lightsaber. However, you can pack a toy lightsaber in your carry-on or checked bag. May the force be with you.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lighter (Fluid)",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lighters (Arc Lighters, Electronic Lighters, E-Lighters)",
+    "description": "Measures must be taken to prevent unintentional activation of the heating element while on board the aircraft. Examples of effective measures to prevent unintentional activation include, but are not limited to: removing the battery from the lighter; placing the lighter into a protective case; and/or using a protective cover, safety latch, or locking device on the lighter's activation button. Each lithium ion battery must not exceed a Watt-hour (Wh) rating of 100 Wh; or for lithium metal batteries, a lithium content of 2 grams. Recharging of the devices and/or the batteries on board the aircraft is not permitted. See FAA regulations for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Lighters (Disposable and Zippo)",
+    "description": "Disposable and Zippo lighters without fuel are allowed in checked bags. Lighters with fuel are prohibited in checked bags, unless they adhere to the Department of Transportation exemption, which allows up to two fueled lighters if properly enclosed in a DOT approved case.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Lighters (Gun)",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lighters (Lithium Battery Powered)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lighters (Torch)",
+    "description": "Torch lighters create a thin, needle-like flame that is hotter (reaching 2,500 F) and more intense than those from common lighters. Torch lighters are often used for pipes and cigars, and maintain a consistent stream of air-propelled fire regardless of the angle at which it is held.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lipsticks",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Liquid Bleach",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Liquid Medications",
+    "description": "TSA allows larger amounts of medically necessary liquids, gels, and aerosols in reasonable quantities for your trip, but you must declare them to security officers at the checkpoint for inspection.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Liquid nitrogen in a dry shipper",
+    "description": "The FAA requires that liquid nitrogen be packaged in a dry shipper when transported in checked baggage. See the FAA regulations for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Liquid Vitamins",
+    "description": "Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lithium batteries with 100 watt hours or less in a device",
+    "description": "Spare (uninstalled) lithium ion and lithium metal batteries, including power banks and cell phone battery charging cases, must be carried in carry-on baggage only. Lithium metal (non-rechargeable) batteries are limited to 2 grams of lithium per battery. Lithium ion (rechargeable) batteries are limited to a rating of 100 watt hours (Wh) per battery. These limits allow for nearly all types of lithium batteries used by the average person in their electronic devices. This instruction covers spare lithium metal and spare rechargeable lithium ion batteries for personal electronics such as cameras, cell phones, laptop computers, tablets, watches, calculators, etc. This instruction also includes external battery chargers (portable rechargers and power banks) containing a lithium ion battery. For more information, see the FAA regulations on batteries. For lithium batteries that are installed in a device (laptop, cell phone, camera, etc.), see FAA regulations for \"portable electronic devices, containing batteries\".",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Lithium batteries with more than 100 watt hours",
+    "description": "Spare (uninstalled) lithium ion and lithium metal batteries, including power banks and cell phone battery charging cases, must be carried in carry-on baggage only. With airline approval, passengers may also carry up to two spare larger lithium ion batteries (101–160 Wh) or lithium metal batteries (2-8 grams). This size covers the larger after-market extended-life laptop computer batteries and some larger batteries used in professional audio/visual equipment. There is a limit of two spare batteries per person for the larger lithium ion batteries described above (101–160 watt hours per battery. For more information, see the FAA regulations on batteries. This instruction covers spare lithium metal and spare rechargeable lithium ion batteries for personal electronics such as cameras, cell phones, laptop computers, tablets, watches, calculators, etc. This instruction also includes external battery chargers (portable rechargers and power banks) containing a lithium ion battery. For lithium batteries that are installed in a device (laptop, cell phone, camera, etc.), see FAA regulations for \"portable electronic devices, containing batteries.\"",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Live Coral",
+    "description": "Live corals in water and a clear transparent container are allowed after inspection by the TSA officer.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Live Fish",
+    "description": "Live fish in water and a clear transparent container are allowed after inspection by the TSA officer.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Live Lobster",
+    "description": "A live lobster is allowed through security and must be transported in a clear, plastic, spill proof container. A TSA officer will visually inspect your lobster at the checkpoint. We recommend that you contact your airline to determine your airline's policy on traveling with your lobster before arriving at the airport.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lock Picks",
+    "description": "Tools that are 7 inches or less in length are allowed in carry-on bags. Please check with local law enforcement regarding traveling with this item. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Longboards",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Lotion",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Luggage Protection Covers",
+    "description": "if your bag requires additional screening, our officers will need to open the covers. Our officers will make every attempt to repack items the way they were when presented for screening.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Magic 8 Ball",
+    "description": "For Carry-on bags: We asked the Magic 8 Ball and it told us…Outlook not so good! For Checked bags: We asked the Magic 8 Ball and it told us…It is certain!",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Magnets",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Makeup Remover",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Makeup Wipes",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Mallets",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Maple Syrup",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Martial Arts Weapons",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Mascara",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Massagers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Matches (Safety Matches)",
+    "description": "One book of safety (non-strike anywhere) matches are permitted as carry-on items, but all matches are prohibited in checked baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Matches (Strike-anywhere Matches)",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Meat Cleavers",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Medical Devices",
+    "description": "Medical Devices Containing Radioactive Material, implanted, ingested, injected, or fitted externally as a result of a medical treatment",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Medical Marijuana",
+    "description": "TSA’s screening procedures are focused on security and are designed to detect potential threats to aviation and passengers. Accordingly, TSA security officers do not search for illegal drugs, but if any illegal substance or evidence of criminal activity is discovered during security screening, TSA will refer the matter to a law enforcement officer.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Medical Masks",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Medical-Clinical Thermometer (Mercury)",
+    "description": "The FAA allows one small Medical-Clinical Thermometer (Mercury) per passenger for personal use in checked bag only. The thermometer must be in a protective case. Tip: Thermometers with a red line instead of silver are not mercury and not restricted. Digital thermometers are also not restricted, unless powered by lithium batteries. See FAA regulations for more information on quantity limits.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Medically Necessary Personal Oxygen",
+    "description": "You may bring personal medical oxygen cylinders through the screening checkpoint and into the gate area. However, personal medical oxygen cylinders are not permitted in the aircraft cabin as they are considered hazardous materials by the Federal Aviation Administration. Please contact your airline for instructions on arranging oxygen service. Airlines are not required to provide oxygen service and many do not.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Medications (Liquid)",
+    "description": "TSA allows larger amounts of medically necessary liquids, gels, and aerosols in reasonable quantities for your trip, but you must declare them to TSA officers at the checkpoint for inspection. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Medications (Pills)",
+    "description": "Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Metal Detector",
+    "description": "Because of the size limitations of overhead bins and space under seats, this item should be transported in checked bags. Due to airline polices on weight and size of checked bags, you should check with your airline for any potential guidelines for certain checked items.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Microwave",
+    "description": "Microwave is allowed through the checkpoint. Please check with your airline for their policy.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Mirrors",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Mixer",
+    "description": "Mixer is allowed in carry-on bags. Please check with your airline for any size or weight restrictions.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "MREs",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible. Please note some airlines do not allow MREs in carry-on bags due to the self-heating element. We recommend that you reach out to your airline to determine their policy.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Multi-tool without Blades",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Multi-tools",
+    "description": "In general, you are prohibited from traveling with sharp objects in your carry-on bags. Multi-tools (multipurpose tools) with knives of any length are prohibited. Please pack these items in your checked bags. Multi-tools (multipurpose tools) with scissors less than 4 inches may be placed in carry-on bags. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Nail Clippers",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Nail File (metal)",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Nail Guns",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Nail Polish",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Nail Polish Remover",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Navigation GPS",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Nebulizers, CPAPs, BiPAPs, and APAPs",
+    "description": "Standard screening Nebulizers, CPAPs, BiPAPs, and APAPs Nebulizers, CPAPs, BiPAPs and APAPs as well as facemasks and tubing may remain in their carrying case for X-ray screening, but may be required to be removed from the carry-on. Precheck screening Nebulizers, CPAPs, BiPAPs and APAPs as well as facemasks and tubing may remain in their carrying case, and in the carry-on, for X-ray screening Liquids associated with nebulizers are exempt from the 3-1-1 liquids rule, in reasonable quantities. For more information, see TSA special procedures. Devices containing lithium metal or lithium ion batteries should be carried in carry-on baggage. Most other consumer electronic devices containing batteries are allowed in carry-on and checked baggage. For more information to portable electronic devices, see the FAA regulations.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Night Sticks",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Night Vision Goggles",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Nitroglycerine Pills",
+    "description": "Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Non-Spillable Wet Batteries",
+    "description": "The information in this entry is limited to non-spillable batteries with absorbed electrolyte (gel cell, absorbed glass mat, etc.) used in portable electronic devices. It does not cover large vehicle batteries. For battery-powered wheelchairs and mobility devices, see separate entry. The battery voltage must not exceed 12 volts and the battery watt hour rating must not exceed 100 watt hours. Battery-powered equipment must be protected against accidental activation and the evolution of heat, and damage to the terminal posts. See FAA regulations for full packaging requirements. No more than two spare (not installed in device/equipment) batteries may be carried.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Nunchucks",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Nuts",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Oils and Vinegars",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Paintings",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Parachutes",
+    "description": "You may transport parachutes, either with or without Automatic Activation Devices, in carry-on or checked bags. Parachutes should always be packed separately from other baggage. If a TSA officer determines that a bag must be opened to inspect the parachute, you must be present to assist in the inspection. If you are not within the screening area, you will be paged using the airport intercom system; if you are not present to assist with screening the parachute, the parachute will not be allowed on the plane. For this reason, passengers with parachutes are encouraged to add 30 minutes to the airlines' recommended arrival window. TSA is not responsible for repacking parachutes. All parachutes should be thoroughly inspected at their end destination to make sure that the equipment is still safe to use.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Parts of Guns and Firearms",
+    "description": "Firearm parts, including frames, receivers, magazines, clips, bolts and firing pins, are prohibited in carry-on, but may be transported in checked bags. Check with your airline to see if they allow firearms in checked bags. Read the guidelines for traveling with firearms. When traveling, be sure to comply with the laws concerning possession of firearms as they vary by local, state and international government.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Party Poppers",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Peanut Butter",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pellet Guns",
+    "description": "Check with your airline to see if they allow firearms in checked bags. Read the guidelines for traveling with firearms. When traveling, be sure to comply with the laws concerning possession of firearms as they vary by local, state and international government.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Pen",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pencil Sharpeners",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pepper Spray",
+    "description": "One 4 fl. oz. (118 ml) container of mace or pepper spray is permitted in checked baggage provided it is equipped with a safety mechanism to prevent accidental discharge. Self-defense sprays containing more than 2 percent by mass of tear gas (CS or CN) are prohibited in checked baggage. For more information, visit faa.gov. We recommend checking with your airline as some may not allow this item in checked bags.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Perfume",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Permeation devices for calibrating air quality",
+    "description": "The FAA limits the total quantity of hazardous materials in the device to 2 ml (0.07 oz.). The device and its packaging cannot weigh more than 30 kg (66 pounds). Please see FAA regulations for information on how the device must be constructed and packaged.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Pet food (solid)",
+    "description": "Dry or \"moist\" pet food is considered solid food. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pet food (wet)",
+    "description": "Wet food must follow the 3-1-1 liquids rule for carry-on bags. There is no medical exemption for prescription pet food, even for service animals. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Phone Chargers",
+    "description": "Portable chargers or power banks containing a lithium ion battery must be packed in carry-on bags. Spare lithium batteries, which include both power banks and phone chargers, are prohibited in checked luggage. For more information, see the FAA guidance on portable rechargers.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pickleball Paddle",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pies and Cakes",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pill Cutter",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pillows",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pizza",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Planting seeds",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Plants",
+    "description": "Check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Play-doh",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Playstation",
+    "description": "Please carefully pack your electronics items and make sure all cords are wrapped. While you can pack expensive, fragile electronics items in checked or carry-on bags, we recommend packing them in your carry-on. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pocket Knife",
+    "description": "In general, you are prohibited from traveling with sharp objects in your carry-on baggage; please pack these items in your checked baggage.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Pool Cues",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Portable Oxygen Concentrators",
+    "description": "Per the Federal Aviation Administration, certain portable oxygen concentrators are permitted onboard the aircraft, including Inogen One, Sequal Eclipse, Airsep Lifestyle. Acceptance criteria for Portable Oxygen Concentrators can be found here.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Pots and Pans",
+    "description": "Pots and pans are generally allowed in both carry-on and checked bags. However, cast iron skillets are prohibited in carry-on bags and must be placed in checked baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Powder Makeup",
+    "description": "Powder-like substances greater than 12 oz. / 350 mL must be placed in a separate bin for X-ray screening. They may require additional screening and containers may need to be opened. For your convenience, we encourage you to place non-essential powders greater than 12 oz. in checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Power Banks",
+    "description": "Portable chargers or power banks containing a lithium ion battery must be packed in carry-on bags. Spare lithium batteries, which include both power banks and phone chargers, are prohibited in checked luggage. For more information, see the FAA guidance on portable rechargers.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Power Charger",
+    "description": "Portable chargers or power banks containing a lithium ion battery must be packed in carry-on bags. For more information, see the FAA guidance on portable rechargers.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Power Inverters",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Power Tools",
+    "description": "Power tools must be packed in checked bags, including drills and drill bits. Power tools with installed batteries must be packed in checked bags. Batteries installed in devices must be protected from accidental activation. External battery chargers that don’t require electricity and spare, uninstalled lithium batteries must be packed in a carry-on bag. For tools powered by lithium batteries, see FAA regulations.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Printer",
+    "description": "Please remove the printer from your bag and place it in a separate bin for X-ray screening",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Printer Ink",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Projectors",
+    "description": "Please place the console in a separate bin for X-ray screening.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Propane",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Prosthetics",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Protein or Energy Powders",
+    "description": "Powder-like substances greater than 12 oz. / 350 mL must be placed in a separate bin for X-ray screening. They may require additional screening and containers may need to be opened. For your convenience, we encourage you to place non-essential powders greater than 12 oz. in checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Putty Balls",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Radio",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Rainbow Flame Crystals",
+    "description": "Many flame crystals contain HAZMAT. Passengers may bring flame crystals but only in checked baggage luggage. Even if an item is generally permitted, it may be subject to additional screening or not allowed through checked baggage if it triggers an alarm during the screening process, appears to have been tampered with, or poses other security concerns. The final decision rests with the TSA officer on whether to allow any item on the plane. Passengers should check the product label for indications of flammable contents or other hazards.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Razor-Type Blades",
+    "description": "Box cutters, razor blades not in a cartridge are prohibited in carry-on. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Realistic Replicas of Explosives",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Realistic Replicas of Firearms",
+    "description": "Read the guidelines for traveling with firearms.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Realistic Replicas of Incendiaries",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Recreational Oxygen",
+    "description": "Non-medically required, flavored or canned oxygen containers are prohibited.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Remote Controlled Cars",
+    "description": "Please carefully pack your electronics items and make sure all cords are wrapped. While you can pack expensive, fragile electronics items in checked or carry-on bags, we recommend packing them in your carry-on.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Rifle Scope (Scope Only)",
+    "description": "Firearms carried as checked baggage MUST be unloaded, packed in a locked hard-sided container, and declared to the airline at check-in. Read the guidelines. Check with your airline or travel agent to see if firearms are permitted in checked baggage on the airline you are flying. Ask about limitations or fees, if any, that apply.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Rifles",
+    "description": "Firearms carried in checked bags must be unloaded, packed in a locked hard-sided container, and declared to the airline at check-in. Check with your airline to see if they allow firearms in checked bags. Read the guidelines for traveling with firearms. When traveling, be sure to comply with the laws concerning possession of firearms as they vary by local, state and international government.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Rocket Launcher",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Rocks",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Rope",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sabers",
+    "description": "Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Safety pin",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Safety Razor With Blades (allowed without blade)",
+    "description": "A Safety Razor is allowed through the screening checkpoint without the blade. The blade must be removed prior to entering the screening checkpoint. TSA officers are not authorized to remove the blades from the holder. Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Salad Dressing",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Salsa and Sauces",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Salt",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Samsung Galaxy Note 7",
+    "description": "The U.S. Department of Transportation, with the Federal Aviation Administration and the Pipeline and Hazardous Materials Safety Administration, have issued an emergency order to ban all Samsung Galaxy Note7 smartphone devices from air transportation in the United States. Individuals who own or possess a Samsung Galaxy Note7 device may not transport the device on their person, in carry-on baggage, or in checked baggage on flights to, from, or within the United States.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sand",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sandwiches",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Saws",
+    "description": "Including cordless portable power saws. Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Scissors",
+    "description": "If packed in carry-on, they must be less than 4 inches from the pivot point. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Screwdriver (longer than 7 inches)",
+    "description": "Tools longer than 7 inches (measured from end to end when assembled) are prohibited in carry-on baggage; these items must be packed in your checked baggage.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Screwdrivers (shorter than 7 inches)",
+    "description": "Tools 7 inches or shorter (measured from end to end when assembled) are allowed in carry-on baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sea Shells",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Segways",
+    "description": "Segways are allowed through the checkpoint. Please check with your airline for their policy.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Self-Defense Sprays",
+    "description": "One 4 fl. oz. (118 ml) container of mace or pepper spray is permitted in checked baggage provided it is equipped with a safety mechanism to prevent accidental discharge. Self-defense sprays containing more than 2 percent by mass of tear gas (CS or CN) are prohibited in checked baggage. For more information, visit faa.gov. We recommend checking with your airline as some may not allow this item in checked bags.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Selfie Stick",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sewing Machine",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sewing Needles",
+    "description": "In general, you may place your knitting needles and needlepoint tools in carry-on or checked baggage. Circular thread cutters or any other cutter or needlepoint tools that contain blades must be placed in checked baggage. You are permitted to keep scissors smaller than 4 inches in your carry-on baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Shampoo",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Shaving Cream (aerosol)",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Shell Casings",
+    "description": "Empty shell casings are allowed in carry-on bag as long as the projectile is no longer intact. They are allowed only if the primer has been removed or has been discharged. If the projectile is attached & the powder has been drilled out, it is considered a replica and not allowed in carry-on.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Shock collars",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Shoe Horn",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Shoe Inserts",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Shoe Tree",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Shoe/Snow Spikes",
+    "description": "Sports equipment that can be used as a bludgeon (such as bats and clubs) is prohibited in the cabin of the plane and must be transported in your checked baggage.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Skateboards",
+    "description": "Skateboards are allowed in carry-on bags. Please check with your airline for any size or weight restrictions.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Skates",
+    "description": "Including ice skates and rollerblades.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Ski Poles",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sleeping Bag",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Slingshots",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Small Compressed Gas Cartridges",
+    "description": "Except for personal medical oxygen cylinders, you can only carry an EMPTY compressed gas cylinder onboard a plane. To be permitted (in either carry-on or checked baggage), it must be clearly visible to the TSA officer that the cylinder is empty. Personal oxygen is permitted if the regulatory valve has not been tampered with or removed. Unless being used for personal medical oxygen, the gas cylinder regulator valve must be completely disconnected from the cylinder (in other words, the cylinder has an open end that allows the TSA officer to visually inspect the cylinder). TSA officers will NOT remove the seal or regulator valve from the cylinder. If the gas cylinder is sealed (i.e., the regulator valve is still attached) and not required for personal medical oxygen, the gas cylinder is prohibited, regardless of the reading on the pressure gauge indicator.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Small Fishing Lures",
+    "description": "Sharp fishing tackle that may be considered dangerous, such as large fish hooks, should be sheathed, securely wrapped, and packed in your checked luggage. Like other high-value objects, you may wish to pack expensive reels or fragile tackle that does not pose a security threat (small flies) in your carry-on baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Small Pets",
+    "description": "Small pets are allowed through the checkpoint. Please check with your airline for their policy. Please remove your pet from the carrying case and place the case through the X-ray machine. You should maintain control of your pet with a leash and remember to remove the leash when carrying your pet through the metal detector. Animal carriers will undergo a visual and/or physical inspection.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Small Toy Cars",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Smart Luggage",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Snack Bar",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Snacks",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked baggage. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Snow Cleats",
+    "description": "Sports equipment that can be used as a bludgeon (such as bats and clubs) is prohibited in the cabin of the plane and must be transported in your checked baggage.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Snow Globes",
+    "description": "Snow globes that appear to contain less than 3.4 ounces of liquid (approximately tennis ball size) can be packed in your carry-on bag ONLY if the entire snow globe, including the base, is able to fit into your one quart-sized, resealable plastic bag. Each passenger can only bring one quart-sized bag with 3.4 oz or smaller containers. Larger snow globes must be packed in checked baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Snowboards",
+    "description": "Please check with your airline for any size or weight restrictions.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Snowshoes",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Soap (Bar)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Soap (Liquid)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Soda",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Solar Panels",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Solid Candles",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Solid Foods",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked baggage. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Solid Makeup",
+    "description": "Powder-like substances greater than 12 oz. / 350 mL must be placed in a separate bin for X-ray screening. They may require additional screening and containers may need to be opened. For your convenience, we encourage you to place non-essential powders greater than 12 oz. in checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Soups",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sparklers",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Speakers",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Spear Guns",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Spices (dry)",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Spillable Batteries",
+    "description": "Except those in wheelchairs.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Sports Cleats",
+    "description": "Sports equipment that can be used as a bludgeon (such as bats and clubs) is prohibited in the cabin of the plane and must be transported in your checked baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Spray Paint",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Spray Starch",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Staplers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Starter Pistols",
+    "description": "Starter pistols carried in checked bags must be unloaded, packed in a locked hard-sided container, and declared to the airline at check-in. Check with your airline to see if they allow firearms in checked bags. Read the guidelines for traveling with firearms. When traveling, be sure to comply with the laws concerning possession of firearms as they vary by local, state and international government.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Steel Toe Boots",
+    "description": "To help officers get a clear look at your bag and reduce the need for additional screening, we suggest you pack your bag in neat layers. TSA PreCheck® travelers do not need to remove shoes, laptops, 3-1-1 liquids, belts or light jackets. Please see TSA PreCheck® for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Stick Pins",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Stuffed Animals",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Stun Guns/Shocking Devices",
+    "description": "Tasers, Stun Guns, and Electro-Shock Weapons (Conducted Electrical Weapons) must be transported in a manner that renders the device inoperable from accidental discharge. Some of these devices are manufactured with lithium batteries. For more information, see the FAA regulations on batteries.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Sunscreen",
+    "description": "The FAA limits the total amount of restricted medicinal and toiletry articles, including aerosols, in checked baggage. The total aggregate quantity per person cannot exceed 2 kg (70 ounces) or 2 L (68 fluid ounces). The capacity of each container must not exceed 0.5 kg (18 ounces) or 500 ml (17 fluid ounces). See the FAA regulations for more information. Permitted aerosol release devices (button/nozzle) must be protected by caps or other suitable means to prevent accidental release.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Supplements",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Support Braces (Knee, Ankle, Wrist, Back)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Surge Protector",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Swiss Army Knife",
+    "description": "Except for plastic or round bladed butter knives. Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Swords",
+    "description": "Cutting or thrusting weapons, including fencing foils. Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tablets",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tactical Pen",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tamales",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tampons",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tape Measures",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tattoo Guns",
+    "description": "Devices containing lithium metal or lithium ion batteries should be carried in carry-on baggage. Most other consumer devices containing batteries are allowed in carry-on and checked baggage. For more information to portable electronic devices, see the FAA regulations.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Tattoo Inks",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tea (dry tea bags or loose tea leaves)",
+    "description": "Solid food items (not liquids or gels) can be transported in either your carry-on or checked bags. Liquid or gel food items larger than 3.4 oz are not allowed in carry-on bags and should be placed in your checked bags if possible. TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tea Kettle",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tear Gas",
+    "description": "Self-defense sprays containing more than 2% by mass of Tear Gas are prohibited in both carry-on and checked baggage.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Television",
+    "description": "Please carefully pack your electronics items and make sure all cords are wrapped. While you can pack expensive, fragile electronics items in checked or carry-on bags, we recommend packing them in your carry-on. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tennis Rackets",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "TENS unit",
+    "description": "TENS (Transcutaneous electrical nerve stimulation) units are allowed in both carry-on and checked bags. If your doctor has told you that your specific TENS unit shouldn't go through an X-ray, you should notify the TSA officer so they can conduct alternate screening. To help you get through security more efficiently, remove your TENS unit from your carry-on bag and put it in the screening bin so the TSA officer can get a clear view of it. For more information, see TSA special procedures. Devices containing lithium metal or lithium ion batteries should be carried in carry-on baggage. Most other consumer electronic devices containing batteries are allowed in carry-on and checked baggage. For more information to portable electronic devices, see the FAA regulations",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Tent",
+    "description": "You may transport this item in carry-on or checked bags. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane. Tent stakes must be packed in checked bags.",
+    "carryOn": null,
+    "carryOnRaw": "Check with Airline",
+    "checked": null,
+    "checkedRaw": "Check with Airline",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tent Poles",
+    "description": "Generally, tent poles are allowed in carry-on or checked bags. Please note however that even if an item is generally allowed, our officers make the final decision on whether an item is allowed through the checkpoint.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Tent Spikes",
+    "description": "Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Throwing Stars",
+    "description": "Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tobacco",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tobacco Pipes",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tools",
+    "description": "Tools 7 inches or shorter may be allowed in carry-on baggage. Power tools and all other tools greater than 7 inches must be packed in your checked baggage.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Toothbrush",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Toothpaste",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tortilla Press",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Toy Guns and Weapons",
+    "description": "While these types of toys are generally permitted, we recommend that you pack them in your checked baggage. Squirt guns, Nerf guns, toy swords, or other items that resemble realistic firearms or weapons are prohibited. We recommend emptying water guns, which must follow the 3-1-1 Liquids Rule. Replicas of explosives, such as hand grenades, are prohibited in checked and carry-on baggage. TSA officers have the discretion to prohibit any item through the screening checkpoint if they believe it poses a security threat.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Toy Robots",
+    "description": "For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Toys (Adult)",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tripods",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Trophy",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Turpentine and Paint Thinner",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Tweezers",
+    "description": "Any sharp objects in checked baggage should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Umbrellas",
+    "description": "Umbrellas are allowed in carry-on bags. Please check with your airline for any size or weight restrictions.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Unused Syringes",
+    "description": "Unused syringes are allowed when accompanied by injectable medication. You must declare these items to security officers at the checkpoint for inspection. We recommend, but do not require, that your medications be labeled to facilitate the security process. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Used Syringes",
+    "description": "Used syringes are allowed when transported in Sharps disposal container or other similar hard-surface container. Learn more about transporting medication on your next flight.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Utensils",
+    "description": "Knives, except for plastic or round-bladed butter knives, are not allowed in carry-on bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Utility Knives/Knife",
+    "description": "Any sharp objects in checked bags should be sheathed or securely wrapped to prevent injury to baggage handlers and inspectors. These items are required to be placed in checked bags with or without blades.",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Vacuum Robots",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Vacuum-sealed bags",
+    "description": "Vacuum-sealed clothes bags are allowed but not encouraged. If they alarm, the TSA officer may need to open them for inspection.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Vehicle Airbags",
+    "description": "",
+    "carryOn": false,
+    "carryOnRaw": "No",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Violins",
+    "description": "Musical instruments must undergo screening when transported as carry-on or in checked baggage. Musical instruments transported as carry-on require a physical inspection at the security checkpoint. Inform the TSA officer if your instrument requires special care and handling. Pack brass instruments in your checked baggage. Check with your airline prior to your flight to ensure your instrument meets the aircraft size requirements.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Virtual Reality Unit",
+    "description": "Please carefully pack your electronics items and make sure all cords are wrapped. While you can pack expensive, fragile electronics items in checked or carry-on bags, we recommend packing them in your carry-on. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Vitamins",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Waffle Iron",
+    "description": "You may transport this item in carry-on or checked baggage. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Walkers",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Walking Sticks",
+    "description": "Blunt-tipped walking sticks are allowed in carry-on or checked bags and must be screened like other property. Sharp-tipped walking sticks are not allowed carry-on items. Please note that even if an item is generally allowed, our officers make the final decision on whether an item is allowed through the checkpoint. Check with your airline to see if they allow walking sticks as carry-on items.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Wallet Chains",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Water for Babies",
+    "description": "Water for babies is allowed in reasonable quantities in carry-on bags. Remove this item from your carry-on bag to be screened separately from the rest of your belongings. Please see traveling with children for more information.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Weather Barometer or Thermometer (Mercury)",
+    "description": "Weather Barometer or Thermometer (Mercury) These devices contain more mercury than consumer devices and may only be carried by a representative of a government weather bureau or similar agency in carry-on baggage. The individual must advise the airline of the presence of the mercury barometer or thermometer in the carry-on baggage. The thermometer must be transported in strong outer packaging having a sealed inner liner or bag constructed of strong, leak-proof and puncture-resistant material that is impervious to mercury and will prevent the escape of mercury from the package in any position. See FAA regulations",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": false,
+    "checkedRaw": "No",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Wedding Dress",
+    "description": "You can bring a wedding dress through the security checkpoint for screening, but we strongly recommend that it is packed safely in a garment-style bag or other packaging to protect it during the screening process. We also recommend that you contact your airline to determine their policy for bringing and stowing the dress on the airplane, as well as how it fits into their carry-on bag limitations. If for some reason your dress cannot fit through the checkpoint x-ray machine for screening, alternate screening procedures will be taken to clear the dress and your garment bag will need to be opened.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes (Special Instructions)",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Wet Wipes",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Wheelchairs",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Wine bottle",
+    "description": "Check with your airline before bringing any alcohol beverages on board. FAA regulations prohibit travelers from consuming alcohol on board an aircraft unless served by a flight attendant. Additionally, Flight Attendants are not permitted to serve a passenger who is intoxicated. Alcoholic beverages with more than 24% but not more than 70% alcohol are limited in checked bags to 5 liters (1.3 gallons) per passenger and must be in unopened retail packaging. Alcoholic beverages with 24% alcohol or less are not subject to limitations in checked bags. Mini bottles of alcohol in carry-on must be able to comfortably fit into a single quart-sized bag. For more information, see FAA regulation: 49 CFR 175.10(a)(4).",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Wrenches/Pliers",
+    "description": "Tools longer than 7 inches (measured from end to end when assembled) are prohibited in carry-on baggage; these items must be packed in your checked bags.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Special Instructions)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": true
+  },
+  {
+    "name": "Xbox",
+    "description": "Please carefully pack your electronics items and make sure all cords are wrapped. While you can pack expensive, fragile electronics items in checked or carry-on bags, we recommend packing them in your carry-on. For items you wish to carry on, you should check with the airline to ensure that the item will fit in the overhead bin or underneath the seat of the airplane.",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Yoga Mat",
+    "description": "",
+    "carryOn": true,
+    "carryOnRaw": "Yes",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  },
+  {
+    "name": "Yogurt",
+    "description": "TSA officers may instruct travelers to separate items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine. Travelers are encouraged to organize their carry-on bags and keep them uncluttered to ease the screening process and keep the lines moving.",
+    "carryOn": true,
+    "carryOnRaw": "Yes (Less than or equal to 3.4oz/100 ml allowed)",
+    "checked": true,
+    "checkedRaw": "Yes",
+    "hasSpecialInstructions": false
+  }
+]
