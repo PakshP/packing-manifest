@@ -125,6 +125,7 @@ export default function GlobalError({ error, reset }: GlobalErrorProps) {
             >
               Reload the trail
             </button>
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
             <a
               href="/"
               style={{
