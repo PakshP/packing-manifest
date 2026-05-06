@@ -10,7 +10,7 @@ export default function PageHero() {
         density="medium"
       />
       <div className="relative z-10 px-6 py-10 sm:px-10 sm:py-14">
-        <p className="field-label">N 47°&nbsp;·&nbsp;30 days&nbsp;·&nbsp;one bag at a time</p>
+        <p className="field-label">N 47°&nbsp;·&nbsp;Packing one bag at a time</p>
         <h1 className="mt-3 font-display text-4xl sm:text-5xl md:text-6xl font-black leading-[0.95] tracking-tight text-ink-primary">
           {APP_NAME}
         </h1>
