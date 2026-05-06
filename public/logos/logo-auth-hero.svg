@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="The Packing Manifest">
+  <g opacity="0.06" stroke="#5a6b3e" stroke-width="1.2" fill="none">
+    <path d="M 50 80 Q 200 60 350 90 T 600 70"/>
+    <path d="M 30 130 Q 180 110 330 140 T 580 120"/>
+    <path d="M 60 400 Q 210 380 360 410 T 600 390"/>
+    <path d="M 40 440 Q 190 420 340 450 T 580 430"/>
+  </g>
+  <text x="300" y="60" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="5" fill="#8a8775">·  WELCOME, TRAVELER  ·</text>
+  <circle cx="300" cy="160" r="68" fill="#5a6b3e"/>
+  <path d="M 252 200 L 277 164 L 290 177 L 309 152 L 343 196 Z" fill="#fbf8f1"/>
+  <path d="M 277 164 L 290 177 L 297 170 L 290 159 Z" fill="#1f2419" opacity="0.25"/>
+  <circle cx="309" cy="142" r="6" fill="#fbf8f1"/>
+  <text x="300" y="304" text-anchor="middle" font-family="'Fraunces', 'Playfair Display', Georgia, serif" font-size="44" font-weight="700" fill="#1f2419" letter-spacing="-1.5">The Packing</text>
+  <text x="300" y="368" text-anchor="middle" font-family="'Fraunces', 'Playfair Display', Georgia, serif" font-size="68" font-weight="400" font-style="italic" fill="#5a6b3e">Manifest</text>
+  <line x1="200" y1="402" x2="400" y2="402" stroke="#c89028" stroke-width="0.75" stroke-dasharray="3 4"/>
+  <text x="300" y="432" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" letter-spacing="3" fill="#5c4a35">YOUR FIELD GUIDE TO PACKING WELL</text>
+  <text x="300" y="460" text-anchor="middle" font-family="'Fraunces', serif" font-size="14" font-style="italic" fill="#8a8775">Sign in to begin your expedition</text>
+</svg>
