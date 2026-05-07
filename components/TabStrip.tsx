@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  useEffect,
-  useRef,
-  useState,
-  type PointerEvent as ReactPointerEvent,
-  type MouseEvent as ReactMouseEvent,
-} from "react";
+import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { AccentKey } from "@/types";
 import { ICON_MAP } from "@/lib/data";
@@ -26,17 +20,8 @@ type Props = {
   onSelect: (id: string) => void;
 };
 
-const DRAG_THRESHOLD_PX = 5;
-
 export default function TabStrip({ tabs, activeId, onSelect }: Props) {
   const scrollerRef = useRef<HTMLDivElement>(null);
-  const dragState = useRef({
-    active: false,
-    startX: 0,
-    startScrollLeft: 0,
-    moved: false,
-  });
-  const [dragging, setDragging] = useState(false);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
 
@@ -59,54 +44,6 @@ export default function TabStrip({ tabs, activeId, onSelect }: Props) {
       ro.disconnect();
     };
   }, [tabs.length]);
-
-  function handlePointerDown(e: ReactPointerEvent<HTMLDivElement>) {
-    if (e.pointerType === "touch") return;
-    if (e.button !== 0) return;
-    const el = scrollerRef.current;
-    if (!el) return;
-    el.setPointerCapture(e.pointerId);
-    dragState.current = {
-      active: true,
-      startX: e.clientX,
-      startScrollLeft: el.scrollLeft,
-      moved: false,
-    };
-    setDragging(true);
-  }
-
-  function handlePointerMove(e: ReactPointerEvent<HTMLDivElement>) {
-    const state = dragState.current;
-    if (!state.active) return;
-    const el = scrollerRef.current;
-    if (!el) return;
-    const dx = e.clientX - state.startX;
-    if (!state.moved && Math.abs(dx) > DRAG_THRESHOLD_PX) state.moved = true;
-    el.scrollLeft = state.startScrollLeft - dx;
-  }
-
-  function endDrag(e: ReactPointerEvent<HTMLDivElement>) {
-    const state = dragState.current;
-    if (!state.active) return;
-    const el = scrollerRef.current;
-    if (el && el.hasPointerCapture(e.pointerId)) {
-      el.releasePointerCapture(e.pointerId);
-    }
-    state.active = false;
-    setDragging(false);
-    if (state.moved) {
-      setTimeout(() => {
-        state.moved = false;
-      }, 0);
-    }
-  }
-
-  function handleClickCapture(e: ReactMouseEvent<HTMLDivElement>) {
-    if (dragState.current.moved) {
-      e.stopPropagation();
-      e.preventDefault();
-    }
-  }
 
   function scrollByDirection(direction: "left" | "right") {
     const el = scrollerRef.current;
@@ -156,16 +93,7 @@ export default function TabStrip({ tabs, activeId, onSelect }: Props) {
 
       <div
         ref={scrollerRef}
-        onPointerDown={handlePointerDown}
-        onPointerMove={handlePointerMove}
-        onPointerUp={endDrag}
-        onPointerCancel={endDrag}
-        onClickCapture={handleClickCapture}
-        className={`flex gap-2 overflow-x-auto scrollbar-none pb-1 pl-4 pr-10 sm:pl-6 sm:pr-12 lg:pl-8 ${
-          dragging
-            ? "cursor-grabbing select-none"
-            : "cursor-grab scroll-smooth snap-x snap-proximity"
-        }`}
+        className="flex gap-2 overflow-x-auto scrollbar-none scroll-smooth snap-x snap-proximity pb-1 pl-4 pr-10 sm:pl-6 sm:pr-12 lg:pl-8"
       >
         {tabs.map((tab) => {
           const Icon = ICON_MAP[tab.iconKey];
