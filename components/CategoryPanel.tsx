@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { Plus } from "lucide-react";
-import type { BagId, Category, CheckedMap } from "@/types";
+import type { Bag, BagId, Category, CheckedMap } from "@/types";
 import { ICON_MAP } from "@/lib/data";
 import { ACCENT_BG, ACCENT_TEXT, ACCENT_BG_SOFT } from "@/lib/styles";
 import ListItem from "@/components/ListItem";
@@ -10,6 +10,7 @@ import KebabMenu from "@/components/ui/KebabMenu";
 
 type Props = {
   category: Category;
+  bags: readonly Bag[];
   checked: CheckedMap;
   onToggleItem: (itemId: string) => void;
   onSetItemBag: (itemId: string, bag: BagId | null) => void;
@@ -22,6 +23,7 @@ type Props = {
 
 export default function CategoryPanel({
   category,
+  bags,
   checked,
   onToggleItem,
   onSetItemBag,
@@ -99,6 +101,7 @@ export default function CategoryPanel({
               key={item.id}
               item={item}
               accent={category.accent}
+              bags={bags}
               isChecked={!!checked[item.id]}
               showBagSelector={showBagSelector}
               onToggle={() => onToggleItem(item.id)}

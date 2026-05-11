@@ -3,9 +3,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Session } from "@supabase/supabase-js";
 
+import { Pencil } from "lucide-react";
+
 import { supabase } from "@/lib/supabase";
-import { BAGS, INITIAL_CATEGORIES } from "@/lib/data";
+import { INITIAL_BAGS, INITIAL_CATEGORIES } from "@/lib/data";
 import type {
+  AccentKey,
+  Bag,
   BagId,
   Category,
   CheckedMap,
@@ -26,6 +30,7 @@ import CategoryPanel from "@/components/CategoryPanel";
 import BagPanel from "@/components/BagPanel";
 import ListActionsBar from "@/components/ListActionsBar";
 import AccountModal from "@/components/AccountModal";
+import EditModal from "@/components/EditModal";
 import ConfirmDialog from "@/components/ui/ConfirmDialog";
 import ChatLauncher from "@/components/chat/ChatLauncher";
 import ChatPanel from "@/components/chat/ChatPanel";
@@ -45,6 +50,24 @@ function makeItemId(): string {
   return `usr_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
 }
 
+function makeBagId(): string {
+  return `bag_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 6)}`;
+}
+
+function makeCategoryId(): string {
+  return `cat_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 6)}`;
+}
+
+// Reset semantics: restore any deleted defaults, drop user-added customs.
+// Items in surviving categories stay. Items assigned to dropped bags become
+// unassigned (handled separately by `unassignItemsFromBag`).
+function resetToDefaults<T extends { id: string; isCustom?: boolean }>(
+  current: T[],
+  defaults: readonly T[]
+): T[] {
+  return defaults.map((def) => current.find((c) => c.id === def.id) ?? def);
+}
+
 export default function Home() {
   const [session, setSession] = useState<Session | null>(null);
   const [authLoading, setAuthLoading] = useState(true);
@@ -54,6 +77,7 @@ export default function Home() {
   const [listLoaded, setListLoaded] = useState(false);
 
   const [categories, setCategories] = useState<Category[]>(INITIAL_CATEGORIES);
+  const [bags, setBags] = useState<Bag[]>(() => [...INITIAL_BAGS]);
   const [checked, setChecked] = useState<CheckedMap>({});
 
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("");
@@ -61,6 +85,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<string>(INITIAL_CATEGORIES[0].id);
 
   const [accountOpen, setAccountOpen] = useState(false);
+  const [editOpen, setEditOpen] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
   const [confirmRequest, setConfirmRequest] = useState<ConfirmRequest | null>(null);
   const [deleteError, setDeleteError] = useState<string | null>(null);
@@ -88,8 +113,10 @@ export default function Home() {
         setListLoaded(false);
         setCreatedAt(null);
         setCategories(INITIAL_CATEGORIES);
+        setBags([...INITIAL_BAGS]);
         setChecked({});
         setAccountOpen(false);
+        setEditOpen(false);
         setConfirmRequest(null);
       }
     });
@@ -129,6 +156,11 @@ export default function Home() {
             ? row.categories
             : INITIAL_CATEGORIES;
         setCategories(cats);
+        const loadedBags =
+          Array.isArray(row.bags) && row.bags.length > 0
+            ? row.bags
+            : [...INITIAL_BAGS];
+        setBags(loadedBags);
         setChecked(row.checked_items ?? {});
         setListLoaded(true);
         return;
@@ -140,6 +172,7 @@ export default function Home() {
         .insert({
           user_id: session.user.id,
           categories: INITIAL_CATEGORIES,
+          bags: INITIAL_BAGS,
           checked_items: {},
         })
         .select()
@@ -155,6 +188,7 @@ export default function Home() {
       setListId(row.id);
       setCreatedAt(row.created_at);
       setCategories(INITIAL_CATEGORIES);
+      setBags([...INITIAL_BAGS]);
       setChecked({});
       setListLoaded(true);
     })();
@@ -170,8 +204,8 @@ export default function Home() {
       const valid = categories.find((c) => c.id === activeTab);
       if (!valid && categories[0]) setActiveTab(categories[0].id);
     } else {
-      const valid = BAGS.find((b) => b.id === activeTab);
-      if (!valid) setActiveTab(BAGS[0].id);
+      const valid = bags.find((b) => b.id === activeTab);
+      if (!valid && bags[0]) setActiveTab(bags[0].id);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [viewMode]);
@@ -190,7 +224,7 @@ export default function Home() {
     saveTimerRef.current = setTimeout(async () => {
       const { error } = await supabase
         .from("packing_lists")
-        .update({ categories, checked_items: checked })
+        .update({ categories, bags, checked_items: checked })
         .eq("id", listId);
 
       if (error) {
@@ -208,7 +242,7 @@ export default function Home() {
     return () => {
       if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     };
-  }, [categories, checked, listId, listLoaded]);
+  }, [categories, bags, checked, listId, listLoaded]);
 
   // ===== Mutations =====
   const toggleItem = useCallback((itemId: string) => {
@@ -358,10 +392,107 @@ export default function Home() {
 
   const resetList = useCallback(() => {
     setCategories(INITIAL_CATEGORIES);
+    setBags([...INITIAL_BAGS]);
     setChecked({});
   }, []);
 
   const resetChecks = useCallback(() => setChecked({}), []);
+
+  // ----- Category CRUD (edit modal) -----
+  const addCategory = useCallback(
+    (input: { name: string; accent: AccentKey; iconKey: string }) => {
+      const name = input.name.trim();
+      if (!name) return;
+      setCategories((prev) => [
+        ...prev,
+        {
+          id: makeCategoryId(),
+          name,
+          subtitle: "",
+          iconKey: input.iconKey,
+          accent: input.accent,
+          items: [],
+          isCustom: true,
+        },
+      ]);
+    },
+    []
+  );
+
+  const deleteCategory = useCallback((categoryId: string) => {
+    setCategories((prev) => {
+      const target = prev.find((c) => c.id === categoryId);
+      if (!target || target.items.length > 0) return prev;
+      const next = prev.filter((c) => c.id !== categoryId);
+      setActiveTab((current) =>
+        current === categoryId ? next[0]?.id ?? current : current
+      );
+      return next;
+    });
+  }, []);
+
+  const resetCategories = useCallback(() => {
+    setCategories((prev) => resetToDefaults(prev, INITIAL_CATEGORIES));
+  }, []);
+
+  // ----- Bag CRUD (edit modal) -----
+  const addBag = useCallback(
+    (input: {
+      name: string;
+      shortName: string;
+      accent: AccentKey;
+      iconKey: string;
+    }) => {
+      const name = input.name.trim();
+      if (!name) return;
+      setBags((prev) => [
+        ...prev,
+        {
+          id: makeBagId(),
+          name,
+          shortName: input.shortName.trim() || name,
+          iconKey: input.iconKey,
+          accent: input.accent,
+          isCustom: true,
+        },
+      ]);
+    },
+    []
+  );
+
+  const deleteBag = useCallback(
+    (bagId: string) => {
+      const hasItems = categories.some((cat) =>
+        cat.items.some((it) => it.bag === bagId)
+      );
+      if (hasItems) return;
+      setBags((prev) => {
+        const next = prev.filter((b) => b.id !== bagId);
+        setActiveTab((current) =>
+          current === bagId ? next[0]?.id ?? current : current
+        );
+        return next;
+      });
+    },
+    [categories]
+  );
+
+  const resetBags = useCallback(() => {
+    setBags((prev) => {
+      const next = resetToDefaults(prev, INITIAL_BAGS);
+      const keptIds = new Set(next.map((b) => b.id));
+      // Unassign items whose bag is being dropped.
+      setCategories((cats) =>
+        cats.map((cat) => ({
+          ...cat,
+          items: cat.items.map((it) =>
+            it.bag && !keptIds.has(it.bag) ? { ...it, bag: null } : it
+          ),
+        }))
+      );
+      return next;
+    });
+  }, []);
 
   const requestConfirm = useCallback((req: ConfirmRequest) => {
     setConfirmRequest(req);
@@ -433,7 +564,7 @@ export default function Home() {
 
   const perBagStats = useMemo(
     () =>
-      BAGS.map((bag) => {
+      bags.map((bag) => {
         const itemsInBag = allItems.filter((i) => i.bag === bag.id);
         return {
           bag,
@@ -441,8 +572,17 @@ export default function Home() {
           packed: itemsInBag.filter((i) => checked[i.id]).length,
         };
       }),
-    [allItems, checked]
+    [bags, allItems, checked]
   );
+
+  const itemCountByBag = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const b of bags) counts[b.id] = 0;
+    for (const item of allItems) {
+      if (item.bag) counts[item.bag] = (counts[item.bag] ?? 0) + 1;
+    }
+    return counts;
+  }, [bags, allItems]);
 
   const tabs: TabItem[] = useMemo(() => {
     if (viewMode === "category") {
@@ -454,7 +594,7 @@ export default function Home() {
         count: c.items.length,
       }));
     }
-    return BAGS.map((b) => {
+    return bags.map((b) => {
       const count = allItems.filter((i) => i.bag === b.id).length;
       return {
         id: b.id,
@@ -464,7 +604,7 @@ export default function Home() {
         count,
       };
     });
-  }, [viewMode, categories, allItems]);
+  }, [viewMode, categories, bags, allItems]);
 
   // ===== Render =====
   if (authLoading) return <LoadingScreen />;
@@ -477,7 +617,7 @@ export default function Home() {
       : null;
   const activeBag =
     viewMode === "bag"
-      ? BAGS.find((b) => b.id === activeTab) ?? BAGS[0]
+      ? bags.find((b) => b.id === activeTab) ?? bags[0] ?? null
       : null;
 
   return (
@@ -517,7 +657,18 @@ export default function Home() {
         />
 
         <div className="flex flex-col gap-4">
-          <ViewModeToggle viewMode={viewMode} onChange={setViewMode} />
+          <div className="flex items-center justify-between gap-3">
+            <ViewModeToggle viewMode={viewMode} onChange={setViewMode} />
+            <button
+              type="button"
+              onClick={() => setEditOpen(true)}
+              aria-label="Edit categories and bags"
+              className="inline-flex items-center gap-1.5 rounded-full border border-border-soft bg-bg-paper px-3 py-2 font-mono text-[0.7rem] uppercase tracking-widest text-ink-secondary transition-colors hover:border-border-strong hover:text-ink-primary"
+            >
+              <Pencil className="h-3.5 w-3.5" strokeWidth={1.8} />
+              <span className="hidden sm:inline">Edit</span>
+            </button>
+          </div>
           <TabStrip tabs={tabs} activeId={activeTab} onSelect={setActiveTab} />
         </div>
 
@@ -525,6 +676,7 @@ export default function Home() {
           <CategoryPanel
             key={activeCategory.id}
             category={activeCategory}
+            bags={bags}
             checked={checked}
             onToggleItem={toggleItem}
             onSetItemBag={setItemBag}
@@ -548,6 +700,7 @@ export default function Home() {
           <BagPanel
             key={activeBag.id}
             bag={activeBag}
+            bags={bags}
             categories={categories}
             checked={checked}
             onToggleItem={toggleItem}
@@ -611,6 +764,59 @@ export default function Home() {
               "This permanently deletes your account, your manifest, and any custom items. This cannot be undone.",
             confirmLabel: "Delete account",
             onConfirm: handleDeleteAccount,
+          })
+        }
+      />
+
+      <EditModal
+        open={editOpen}
+        onClose={() => setEditOpen(false)}
+        categories={categories}
+        bags={bags}
+        itemCountByBag={itemCountByBag}
+        onAddCategory={addCategory}
+        onDeleteCategory={(id) => {
+          const target = categories.find((c) => c.id === id);
+          if (!target) return;
+          if (target.items.length > 0) return;
+          requestConfirm({
+            title: `Delete category “${target.name}”?`,
+            description:
+              "The category will be removed. You can restore default categories with Reset.",
+            confirmLabel: "Delete category",
+            onConfirm: () => deleteCategory(id),
+          });
+        }}
+        onResetCategories={() =>
+          requestConfirm({
+            title: "Reset categories to defaults?",
+            description:
+              "Custom categories are removed. Default categories that were deleted are restored. Items in kept categories stay.",
+            confirmLabel: "Reset categories",
+            onConfirm: resetCategories,
+          })
+        }
+        onAddBag={addBag}
+        onDeleteBag={(id) => {
+          const target = bags.find((b) => b.id === id);
+          if (!target) return;
+          const itemsHere = allItems.some((i) => i.bag === id);
+          if (itemsHere) return;
+          requestConfirm({
+            title: `Delete bag “${target.name}”?`,
+            description:
+              "The bag will be removed. You can restore default bags with Reset.",
+            confirmLabel: "Delete bag",
+            onConfirm: () => deleteBag(id),
+          });
+        }}
+        onResetBags={() =>
+          requestConfirm({
+            title: "Reset bags to defaults?",
+            description:
+              "Custom bags are removed. Default bags that were deleted are restored. Items in removed bags become unassigned.",
+            confirmLabel: "Reset bags",
+            onConfirm: resetBags,
           })
         }
       />

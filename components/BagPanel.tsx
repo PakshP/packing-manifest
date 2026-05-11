@@ -8,6 +8,7 @@ import KebabMenu from "@/components/ui/KebabMenu";
 
 type Props = {
   bag: Bag;
+  bags: readonly Bag[];
   categories: Category[];
   checked: CheckedMap;
   onToggleItem: (itemId: string) => void;
@@ -25,6 +26,7 @@ type ItemWithCategory = {
 
 export default function BagPanel({
   bag,
+  bags,
   categories,
   checked,
   onToggleItem,
@@ -99,6 +101,7 @@ export default function BagPanel({
               <ListItem
                 item={item}
                 accent={category.accent}
+                bags={bags}
                 isChecked={!!checked[item.id]}
                 showBagSelector
                 onToggle={() => onToggleItem(item.id)}

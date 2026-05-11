@@ -1,13 +1,13 @@
 "use client";
 
 import { Trash2 } from "lucide-react";
-import type { AccentKey, BagId, PackingItem } from "@/types";
-import { BAGS, BAG_BY_ID } from "@/lib/data";
+import type { AccentKey, Bag, BagId, PackingItem } from "@/types";
 import { ACCENT_HEX_VAR } from "@/lib/styles";
 
 type Props = {
   item: PackingItem;
   accent: AccentKey;
+  bags: readonly Bag[];
   isChecked: boolean;
   showBagSelector: boolean;
   onToggle: () => void;
@@ -62,12 +62,14 @@ function HexCheckbox({
 
 function BagPill({
   bag,
+  bags,
   onChange,
 }: {
   bag: BagId | null;
+  bags: readonly Bag[];
   onChange: (bag: BagId | null) => void;
 }) {
-  const current = bag ? BAG_BY_ID[bag] : null;
+  const current = bag ? bags.find((b) => b.id === bag) ?? null : null;
   const color = current ? ACCENT_HEX_VAR[current.accent] : null;
 
   return (
@@ -77,7 +79,7 @@ function BagPill({
         value={bag ?? ""}
         onChange={(e) => {
           const v = e.target.value;
-          onChange(v === "" ? null : (v as BagId));
+          onChange(v === "" ? null : v);
         }}
         className="font-mono text-[0.65rem] uppercase tracking-widest rounded-full px-3 py-1 pr-7 appearance-none cursor-pointer border transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
         style={
@@ -95,7 +97,7 @@ function BagPill({
         }
       >
         <option value="">— Unassigned</option>
-        {BAGS.map((b) => (
+        {bags.map((b) => (
           <option key={b.id} value={b.id}>
             {b.shortName}
           </option>
@@ -115,6 +117,7 @@ function BagPill({
 export default function ListItem({
   item,
   accent,
+  bags,
   isChecked,
   showBagSelector,
   onToggle,
@@ -141,7 +144,9 @@ export default function ListItem({
         </span>
       </button>
 
-      {showBagSelector && <BagPill bag={item.bag} onChange={onSetBag} />}
+      {showBagSelector && (
+        <BagPill bag={item.bag} bags={bags} onChange={onSetBag} />
+      )}
 
       <button
         type="button"

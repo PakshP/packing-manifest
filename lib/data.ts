@@ -1,25 +1,41 @@
 import type { ComponentType, SVGProps } from "react";
 import {
   Backpack,
+  Book,
+  Box,
   Briefcase,
+  Camera,
   Coffee,
+  Compass,
   FileText,
+  Gift,
   HeartPulse,
+  Key,
   ListChecks,
   Lock,
   Luggage,
+  Map as MapIcon,
+  Mountain,
+  Music,
   Package,
+  Palette,
   Plug,
   Shirt,
+  ShoppingBag,
   Sparkles,
+  Star,
+  Sun,
+  Tent,
+  Utensils,
+  Wallet,
 } from "lucide-react";
 
-import type { Bag, BagId, Category, PackingItem } from "@/types";
+import type { AccentKey, Bag, BagId, Category, PackingItem } from "@/types";
 
 type LucideIcon = ComponentType<SVGProps<SVGSVGElement>>;
 
 export const ICON_MAP: Record<string, LucideIcon> = {
-  // Categories
+  // Categories (defaults)
   documents: FileText,
   electronics: Plug,
   clothing: Shirt,
@@ -29,14 +45,81 @@ export const ICON_MAP: Record<string, LucideIcon> = {
   extras: Sparkles,
   predeparture: ListChecks,
 
-  // Bags
+  // Bags (defaults)
   bagChecked: Luggage,
   bagDuffel: Package,
   bagCarryon: Briefcase,
   bagBackpack: Backpack,
+
+  // Picker extras — usable by custom bags and categories.
+  package: Package,
+  backpack: Backpack,
+  briefcase: Briefcase,
+  luggage: Luggage,
+  shoppingBag: ShoppingBag,
+  shirt: Shirt,
+  heart: HeartPulse,
+  sparkles: Sparkles,
+  list: ListChecks,
+  coffee: Coffee,
+  plug: Plug,
+  lock: Lock,
+  camera: Camera,
+  book: Book,
+  music: Music,
+  map: MapIcon,
+  gift: Gift,
+  key: Key,
+  wallet: Wallet,
+  tent: Tent,
+  mountain: Mountain,
+  compass: Compass,
+  star: Star,
+  box: Box,
+  sun: Sun,
+  utensils: Utensils,
+  palette: Palette,
 };
 
-export const BAGS: readonly Bag[] = [
+// Icons offered in the customizer. Keys here must exist in ICON_MAP.
+export const PICKER_ICON_KEYS: readonly string[] = [
+  "package",
+  "backpack",
+  "briefcase",
+  "luggage",
+  "shoppingBag",
+  "shirt",
+  "heart",
+  "sparkles",
+  "list",
+  "coffee",
+  "plug",
+  "lock",
+  "camera",
+  "book",
+  "music",
+  "map",
+  "gift",
+  "key",
+  "wallet",
+  "tent",
+  "mountain",
+  "compass",
+  "star",
+  "box",
+  "sun",
+  "utensils",
+  "palette",
+];
+
+export const ACCENT_OPTIONS: readonly AccentKey[] = [
+  "moss",
+  "rust",
+  "river",
+  "summit",
+];
+
+export const INITIAL_BAGS: readonly Bag[] = [
   {
     id: "checked",
     name: "Checked Bag",
@@ -67,12 +150,14 @@ export const BAGS: readonly Bag[] = [
   },
 ];
 
-export const BAG_BY_ID: Record<BagId, Bag> = BAGS.reduce(
-  (acc, bag) => {
-    acc[bag.id] = bag;
-    return acc;
-  },
-  {} as Record<BagId, Bag>
+export function bagsById(bags: readonly Bag[]): Record<BagId, Bag> {
+  const map: Record<BagId, Bag> = {};
+  for (const bag of bags) map[bag.id] = bag;
+  return map;
+}
+
+export const DEFAULT_BAG_IDS: ReadonlySet<BagId> = new Set(
+  INITIAL_BAGS.map((b) => b.id)
 );
 
 // ---------------------------------------------------------------------
@@ -328,3 +413,7 @@ export const INITIAL_CATEGORIES: Category[] = [
     ],
   },
 ];
+
+export const DEFAULT_CATEGORY_IDS: ReadonlySet<string> = new Set(
+  INITIAL_CATEGORIES.map((c) => c.id)
+);

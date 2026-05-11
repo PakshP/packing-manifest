@@ -8,11 +8,16 @@ create table if not exists public.packing_lists (
   id uuid primary key default gen_random_uuid(),
   user_id uuid not null references auth.users(id) on delete cascade,
   categories jsonb not null default '[]'::jsonb,
+  bags jsonb not null default '[]'::jsonb,
   checked_items jsonb not null default '{}'::jsonb,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint packing_lists_user_unique unique (user_id)
 );
+
+-- For existing installs: add the bags column if missing.
+alter table public.packing_lists
+  add column if not exists bags jsonb not null default '[]'::jsonb;
 
 create index if not exists packing_lists_user_id_idx
   on public.packing_lists (user_id);

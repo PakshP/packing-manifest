@@ -1,4 +1,4 @@
-export type BagId = "checked" | "duffel" | "carryon" | "backpack";
+export type BagId = string;
 
 export type AccentKey = "moss" | "rust" | "river" | "summit";
 
@@ -8,6 +8,7 @@ export type Bag = {
   shortName: string;
   iconKey: string;
   accent: AccentKey;
+  isCustom?: boolean;
 };
 
 export type PackingItem = {
@@ -23,6 +24,7 @@ export type Category = {
   iconKey: string;
   accent: AccentKey;
   items: PackingItem[];
+  isCustom?: boolean;
 };
 
 export type CheckedMap = Record<string, boolean>;
@@ -31,6 +33,7 @@ export type PackingListRow = {
   id: string;
   user_id: string;
   categories: Category[];
+  bags: Bag[] | null;
   checked_items: CheckedMap;
   created_at: string;
   updated_at: string;
